@@ -1,0 +1,236 @@
+# i3 options:
+set $mod Mod4
+font pango: Terminess Regular 10
+floating_modifier $mod
+default_orientation horizontal 
+hide_edge_borders both
+#workspace_layout stacking
+new_window none
+new_float normal 2
+workspace_auto_back_and_forth yes
+force_focus_wrapping yes
+focus_follows_mouse no
+
+# app binds:
+bindsym $mod+Return exec terminology
+bindsym $mod+d exec --no-startup-id dmenu_run
+#bindsym $mod+x exec --no-startup-id 
+#bindsym $mod+z exec --no-startup-id passmenu -p "copy:" -font "Share 10" -bw "3"
+bindsym Control+Mod1+Delete exec $TERMINAL -t htop -e htop
+bindsym $mod+Print exec --no-startup-id maim -d 3 ~/images/screenshots/$(date +%F-%T).png
+bindsym $mod+Shift+Print exec --no-startup-id maim -s ~/images/screenshots/$(date +%F-%T).png
+#bindsym --release $mod+F1 exec --no-startup-id 
+#bindsym $mod+F2 exec --no-startup-id pacman-checkupdates
+bindsym XF86TouchpadToggle exec --no-startup-id synclient TouchpadOff=1
+bindsym XF86AudioPrev exec --no-startup-id "mocp -r"
+bindsym XF86AudioNext exec --no-startup-id "mocp -f"
+bindsym XF86AudioPlay exec --no-startup-id "mocp -G"
+bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer sset Master 5%+"
+bindsym XF86AudioLowerVolume exec --no-startup-id "amixer sset Master 5%-"
+bindsym XF86AudioMute exec --no-startup-id "amixer set Master toggle"
+bindsym $mod+Tab exec --no-startup-id rofi -show "window" -font "Share 10" -bw "3"
+
+## autostart apps:
+
+#fonts for status bar
+exec --no-startup-id xset +fp /usr/share/fonts/terminus/
+exec --no-startup-id xset fp rehash
+
+#compositing(transparency) and wallpaper
+exec --no-startup-id xcompmgr
+exec --no-startup-id nitrogen --restore
+
+#basic apps
+exec --no-startup-id urxvt -e mocp
+exec --no-startup-id chromium
+exec --no-startup-id terminology -e htop
+exec --no-startup-id xterm -e ranger
+#exec i3-msg workspace 3:web
+
+# assign apps:
+assign [class="URxvt"] 5:music
+assign [class="terminology"] 1:term
+assign [class="XTerm"] 4:fma
+assign [class="Viber"] 3:IM
+assign [instance="vlc"] 6:media
+assign [instance="weechat"] 3:IM
+#assign [instance="crx_nckg.*|crx_knip.*|gajim|profanity|skype"] 10:mes
+assign [class="chromium" window_role="browser"] 2:www
+assign [class="dwb"] 2:www
+
+# config apps:
+#for_window [instance="Navigator" class="Firefox|Aurora"] border none
+for_window [class="guake"] floating enable
+for_window [class="feh"] floating enable
+for_window [class="chromium" window_role="browser"] border none
+for_window [class="chromium" window_role="pop-up"] floating enable
+for_window [class="Dwb"] border none
+#for_window [class="Gnome-screenshot"] floating enable
+#for_window [class="net-minecraft-bootstrap-Bootstrap"] floating enable
+#for_window [class="Gcolor3"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Nitrogen"] floating enable
+#for_window [class="grafx2"] floating enable
+#for_window [class="Galculator"] floating enable
+#for_window [class="Simplescreenrecorder"] floating enable
+#for_window [class="Wine"] floating enable
+#for_window [class="Steam"] floating enable
+#for_window [class="Gajim"] floating enable
+#for_window [class="t-engine"] floating enable
+#for_window [class="Pystopwatch"] floating enable
+#for_window [class="Angband"] floating enable
+#for_window [class="Mojosetup"] floating enable
+
+# border colors:        border: bg:     text:   indicator:
+#client.focused         #493757 #453452 #FFFFFF #523445
+client.focused          #285577 #285577 #FFFFFF #285577
+client.focused_inactive #4F4E43 #49483E #BFBFBF #49483E
+client.unfocused        #000000 #000000 #888888 #000000
+client.urgent           #662B32 #58252B #F4BF75 #58252B
+
+# wm binds:
+bindsym $mod+Shift+q kill
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+#bindsym $mod+Shift+Left move left 25
+#bindsym $mod+Shift+Down move down 25
+#bindsym $mod+Shift+Up move up 25
+#bindsym $mod+Shift+Right move right 25
+bindsym $mod+h split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen
+bindsym $mod+s floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+bindsym $mod+c focus child
+bindsym $mod+1 workspace 1:term
+bindsym $mod+2 workspace 2:www
+bindsym $mod+3 workspace 3:IM
+bindsym $mod+4 workspace 4:fma
+bindsym $mod+5 workspace 5:music
+bindsym $mod+6 workspace 6:media
+bindsym $mod+7 workspace 7:VM
+bindsym $mod+8 workspace 8:torrent
+bindsym $mod+9 workspace 9:docs
+bindsym $mod+0 workspace 10:
+bindsym $mod+Shift+1 move container to workspace 1:term
+bindsym $mod+Shift+2 move container to workspace 2:www
+bindsym $mod+Shift+3 move container to workspace 3:IM
+bindsym $mod+Shift+4 move container to workspace 4:fma
+bindsym $mod+Shift+5 move container to workspace 5:music
+bindsym $mod+Shift+6 move container to workspace 6:media
+bindsym $mod+Shift+7 move container to workspace 7:VM
+bindsym $mod+Shift+8 move container to workspace 8:torrent
+bindsym $mod+Shift+9 move container to workspace 9:docs
+bindsym $mod+Shift+0 move container to workspace 10:
+#bindsym $mod+o move scratchpad
+#bindsym $mod+grave scratchpad show
+#bindsym button2 kill
+#bindsym button3 floating toggle
+#bindsym $mod+t sticky toggle
+
+# resize mode:
+bindsym $mod+r mode "resize"
+mode "resize" {
+    bindsym Left resize shrink width 10
+    bindsym Down resize grow height 10
+    bindsym Up resize shrink height 10
+    bindsym Right resize grow width 10
+    bindsym Shift+Left resize shrink width 50
+    bindsym Shift+Down resize grow height 50
+    bindsym Shift+Up resize shrink height 50
+    bindsym Shift+Right resize grow width 50
+    bindsym $mod+Shift+Left move left 25
+    bindsym $mod+Shift+Down move down 25
+    bindsym $mod+Shift+Up move up 25
+    bindsym $mod+Shift+Right move right 25
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# power mode:
+bindsym $mod+p mode "power"
+mode "power" {
+    bindsym 1 exec systemctl hibernate; mode "default"
+    bindsym 2 exec systemctl poweroff; mode "default"
+    bindsym 3 exec systemctl reboot; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# layout mode:
+bindsym $mod+l mode "layout"
+mode "layout" {
+    bindsym 1 layout stacking; mode "default"
+    bindsym 2 layout tabbed; mode "default"
+    bindsym 3 layout toggle split; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# border mode:
+bindsym $mod+b mode "border"
+mode "border" {
+    bindsym 1 border pixel 2; mode "default"
+    bindsym 2 border normal 2; mode "default"
+    bindsym 3 border none; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# i3wm mode:
+bindsym $mod+i mode "i3wm"
+mode "i3wm" {
+    bindsym 1 reload; mode "default"
+    bindsym 2 restart; mode "default"
+    bindsym 3 exit; mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# i3bar options:
+
+bar {
+	mode dock
+	position top
+#	font pango: terminusicons2mono 10
+	font -xos4-terminusicons2-medium-r-normal--12-120-72-72-c-60-iso8859-1
+    workspace_buttons yes
+    separator_symbol " "
+	 status_command ~/bin/conky-i3bar
+    tray_output none
+    colors {
+      background #000000
+      statusline #605c5a
+      focused_workspace #000000 #000000 #b72f62
+      active_workspace #5f5f5f #000000 #000000
+      inactive_workspace #000000 #000000 #5f5f5f
+      urgent_workspace #2e3436 #9a878f
+	}
+}
+#^^^ #000000 was #101010
+
+#bar {
+#    mode dock
+#    modifier $mod
+#    position top
+#    tray_output primary
+#    font pango: Share Tech 10
+#    status_command i3status
+#    separator_symbol ":"
+#    strip_workspace_numbers yes
+#
+#    # bar colors:
+#    colors {
+#        background #000000
+#
+#        # workspace:       border: bg:     text:
+#       focused_workspace  #453452 #453452 #CCCCCC
+#        focused_workspace  #285577 #285577 #CCCCCC
+#        active_workspace   #1A1A1A #1A1A1A #696F89
+#        inactive_workspace #000000 #000000 #6B6B6B
+#        urgent_workspace   #662B32 #58252B #F4BF75
+#    }
+#}

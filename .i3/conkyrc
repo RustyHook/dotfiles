@@ -1,0 +1,65 @@
+out_to_x no
+own_window no
+out_to_console yes
+background no
+max_text_width 0
+# Update interval in seconds
+update_interval 0.5
+total_run_times 0
+override_utf8_locale yes
+
+TEXT
+
+[{ "full_text" : "Î" , "color" : "\#b72f62" } ,
+ { "full_text" : "${moc_artist} - ${moc_song} ${moc_timeleft}" } ,  
+ { "full_text" : "Ô" , "color" : "\#7996a9" } ,
+ { "full_text" : "${exec amixer -c 1 get Master | grep Mono: | cut -d ' ' -f6}" } ,  
+ { "full_text" : "À" , "color" : "\#7996a9" } ,
+ { "full_text" : "${fs_free_perc /}%" } , 
+ { "full_text" : "Ï" , "color" : "\#b492b6" } ,
+ { "full_text" : "${cpu}%" },
+ { "full_text" : "Þ" , "color" : "\#b492b6" } ,
+ { "full_text" : "${mem}" },
+ { "full_text" : "Ð" , "color" : 
+  ${if_match ${downspeedf wlo1}>350}"\#ac0909" \
+	${else}\
+		${if_match ${downspeedf wlo1}>150}"\#8d8d00"\
+	${else}\
+		${if_match ${downspeedf wlo1}>50}"\#a7fc00"\
+	${else}"\#5f5f5f"${endif}${endif}${endif} } ,
+ { "full_text" : "Ñ" , "color" : 
+  ${if_match ${upspeedf wlo1}>50}"\#ac0909" \
+	${else}\
+		${if_match ${upspeedf wlo1}>25}"\#8d8d00"\
+	${else}\
+		${if_match ${upspeedf wlo1}>5}"\#a7fc00"\
+	${else}"\#5f5f5f"${endif}${endif}${endif} } ,
+ { "full_text" : "Bat" , "color" : "\#7996a9" } ,
+ { "full_text" : "${battery_percent BAT0}%" , "color" : 
+  ${if_match ${battery_percent BAT0}>90}"\#a7fc00"\
+	${else}\
+  ${if_match ${battery_percent BAT0}>50}"\#007d00"\
+	${else}\
+  ${if_match ${battery_percent BAT0}>20}"\#8d8d00"\
+	${else}"\#b95670"${endif}${endif}${endif} } ,
+ { "full_text" : "Õ" , "color" : "\#b492b6" } , 
+ { "full_text" : "${time %I:%M%P}" }]  ,
+
+
+
+# Icon glyphs from Terminusicons2
+#icon_clock="Õ"                      # Clock icon
+#icon_cpu="Ï"                        # CPU icon
+#icon_mem="Þ"                        # MEM icon
+#icon_dl="Ð"                         # Download icon
+#icon_ul="Ñ"                         # Upload icon
+#icon_vol="Ô"                        # Volume icon
+#icon_hd="À"                         # HD / icon
+#icon_home="Æ"                       # HD /home icon
+#icon_mail="Ó"                       # Mail icon
+#icon_chat="Ò"                       # IRC/Chat icon
+#icon_music="Î"                      # Music icon
+#icon_prog="Â"                       # Window icon
+#icon_contact="Á"                    # Contact icon
+#icon_wsp="É"                        # Workspace icon
+
