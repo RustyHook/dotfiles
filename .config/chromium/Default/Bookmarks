@@ -1,0 +1,241 @@
+{
+   "checksum": "20ac1b2779648fcf15ca3a782978282f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13099248902628031",
+            "id": "6",
+            "name": "MPD Error: Connection refused / Multimedia and Games / Arch Linux Forums",
+            "type": "url",
+            "url": "https://bbs.archlinux.org/viewtopic.php?id=113294"
+         }, {
+            "date_added": "13099271092234591",
+            "id": "9",
+            "name": "z1lt0id (Dean ) · GitHub",
+            "type": "url",
+            "url": "https://github.com/z1lt0id"
+         }, {
+            "date_added": "13099271095202025",
+            "id": "10",
+            "name": "euphrasia colours for X environment and tty (v. 2) by bohoomil on DeviantArt",
+            "type": "url",
+            "url": "http://bohoomil.deviantart.com/art/euphrasia-colours-for-X-environment-and-tty-v-2-340068994"
+         }, {
+            "date_added": "13099271107446975",
+            "id": "11",
+            "name": "GitHub - z1lt0id/.Dotfiles: My personal config files for \"awesome, ncmpcc, weechat\", etc.",
+            "type": "url",
+            "url": "https://github.com/z1lt0id/.Dotfiles"
+         }, {
+            "date_added": "13099273983323157",
+            "id": "14",
+            "name": "!#include \"/home/nir/.colors/colored\" !#include \"/home/nir/.colors/tron\" !#inc - Pastebin.com",
+            "type": "url",
+            "url": "http://pastebin.com/bWSCVTzn"
+         }, {
+            "date_added": "13099366057624901",
+            "id": "17",
+            "name": "GitHub - CoderDojoSV/beginner-python: Create programs with Python! 6-week workshop",
+            "type": "url",
+            "url": "https://github.com/CoderDojoSV/beginner-python"
+         }, {
+            "date_added": "13099428190463202",
+            "id": "20",
+            "name": "timeanddate.com",
+            "type": "url",
+            "url": "http://www.timeanddate.com/"
+         }, {
+            "date_added": "13099583561242414",
+            "id": "23",
+            "name": "Subtle Patterns | Free textures for your next web project.",
+            "type": "url",
+            "url": "http://subtlepatterns.com/fabric-of-squares/"
+         }, {
+            "date_added": "13099584986025252",
+            "id": "26",
+            "name": "Album - Google+",
+            "type": "url",
+            "url": "https://plus.google.com/photos/+ArtentDesignsPlus/albums/6131117606440340913?sort=1"
+         }, {
+            "date_added": "13099586391311249",
+            "id": "29",
+            "name": ".dotfiles/.Xresources at master · strang3quark/.dotfiles",
+            "type": "url",
+            "url": "https://github.com/strang3quark/.dotfiles/blob/master/.Xresources"
+         }, {
+            "date_added": "13099623160488097",
+            "id": "32",
+            "name": "Analysis and Exploitation of a Linux Kernel Vulnerability (CVE-2016-0728) | Perception Point",
+            "type": "url",
+            "url": "http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/"
+         }, {
+            "date_added": "13099623162551739",
+            "id": "33",
+            "name": "cve_2016_0728 exploit",
+            "type": "url",
+            "url": "https://gist.github.com/PerceptionPointTeam/18b1e86d1c0f8531ff8f"
+         }, {
+            "date_added": "13099629431811764",
+            "id": "34",
+            "name": "Find any free stream - Video Link Search Engine - Alluc",
+            "type": "url",
+            "url": "http://www.alluc.ee/"
+         }, {
+            "date_added": "13099668427404675",
+            "id": "37",
+            "name": "Maximizing performance - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/index.php/maximizing_performance#The_basics"
+         }, {
+            "date_added": "13099668429285688",
+            "id": "38",
+            "name": "Benchmarking - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/index.php/Benchmarking"
+         }, {
+            "date_added": "13099767699825354",
+            "id": "41",
+            "name": "Современная комбинаторика (Modern combinatorics) - Moscow Institute of Physics and Technology | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/modern-combinatorics"
+         }, {
+            "children": [ {
+               "date_added": "13099776422202312",
+               "id": "45",
+               "name": "Manjaro and Arch Linux",
+               "type": "url",
+               "url": "https://www.facebook.com/groups/639779336140723/permalink/881683361950318/?comment_id=881709721947682&reply_comment_id=883433908441930&notif_t=group_comment"
+            }, {
+               "date_added": "13099776422202950",
+               "id": "46",
+               "name": "https://ptpb.pw/T3jc",
+               "type": "url",
+               "url": "https://ptpb.pw/T3jc"
+            }, {
+               "date_added": "13099776422203109",
+               "id": "47",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Intel"
+            }, {
+               "date_added": "13099776422203291",
+               "id": "48",
+               "name": "[ubuntu] Intel 6200-AGN / Ubuntu 13.10 / Lenovo x201s",
+               "type": "url",
+               "url": "http://ubuntuforums.org/showthread.php?t=2205733&p=12935783#post12935783"
+            }, {
+               "date_added": "13099776422203485",
+               "id": "49",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Power_saving"
+            }, {
+               "date_added": "13099776422203661",
+               "id": "50",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Connection_always_times_out"
+            }, {
+               "date_added": "13099776422203837",
+               "id": "51",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Lowering_the_rate"
+            }, {
+               "date_added": "13099776422204010",
+               "id": "52",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Lowering_the_txpower"
+            }, {
+               "date_added": "13099776422204184",
+               "id": "53",
+               "name": "Wireless network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/index.php/Wireless_network_configuration#Random_disconnections"
+            }, {
+               "date_added": "13099776422204357",
+               "id": "54",
+               "name": "[SOLVED] Intel Centrino Ultimate-N 6300 drops out & reconnects almost every minute",
+               "type": "url",
+               "url": "http://ubuntuforums.org/showthread.php?t=2191982"
+            }, {
+               "date_added": "13099776422204554",
+               "id": "55",
+               "name": "[ubuntu] Intel Ultimate N 6300 in Thinkpad X230, drop-outs and no connection",
+               "type": "url",
+               "url": "http://ubuntuforums.org/showthread.php?t=2056108"
+            }, {
+               "date_added": "13099776422204746",
+               "id": "56",
+               "name": "[SOLVED] Very unstable wifi connection after upgrade to 12.04 (Intel Ultimate-N 6300)",
+               "type": "url",
+               "url": "http://ubuntuforums.org/showthread.php?t=1978457"
+            } ],
+            "date_added": "13099776422202184",
+            "date_modified": "13099776422204746",
+            "id": "44",
+            "name": "wifi problems asad",
+            "type": "folder"
+         }, {
+            "date_added": "13099795048977271",
+            "id": "59",
+            "name": "Hidden gems of xterm - Lukáš Zapletal",
+            "type": "url",
+            "url": "https://lukas.zapletalovi.com/2013/07/hidden-gems-of-xterm.html"
+         }, {
+            "date_added": "13099801764586917",
+            "id": "62",
+            "name": "How safe are irc channels? : hacking",
+            "type": "url",
+            "url": "https://www.reddit.com/r/hacking/comments/273s3w/how_safe_are_irc_channels/"
+         }, {
+            "date_added": "13099834786068067",
+            "id": "65",
+            "name": "The Creepiest, Most Sinister Places Anyone Ever Visited And Documented",
+            "type": "url",
+            "url": "http://biglike.com/creepiest-sinister-places-anyone-ever-visited-documented/1/"
+         }, {
+            "date_added": "13099939046402147",
+            "id": "68",
+            "name": "How to Build a Crawler in Python",
+            "type": "url",
+            "url": "http://fossbytes.com/how-to-build-a-basic-web-crawler-in-python/"
+         }, {
+            "date_added": "13099973155936915",
+            "id": "71",
+            "name": "Code: The Hidden Language of Computer Hardware and Software, by Charles Petzold",
+            "type": "url",
+            "url": "http://www.charlespetzold.com/code/"
+         }, {
+            "date_added": "13099973912829076",
+            "id": "72",
+            "name": "CS50 Course Info | edX",
+            "type": "url",
+            "url": "https://courses.edx.org/courses/HarvardX/CS50x3/2015/info#steps"
+         } ],
+         "date_added": "13099247900836873",
+         "date_modified": "13099973912829076",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13099247900836894",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13099247900836897",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

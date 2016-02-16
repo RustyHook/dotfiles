@@ -1,0 +1,26 @@
+sw_volume: 1
+audio_device_state:1:alsa
+audio_device_state:1:my_fifo
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:01-Invaders.mp3
+1:03-ThePrisoner.mp3
+2:04-22AcaciaAvenue.mp3
+3:09-HallowedBeThyName.ogg
+4:09-HallowedBeThyName.mp3
+5:04-22AcaciaAvenue.mp3
+6:01-Invaders.ogg
+7:02-ChildrenOfTheDamned.mp3
+8:01-Invaders.mp3
+9:05-TheNumberOfTheBeast.mp3
+10:06-RunToTheHills.ogg
+11:07-Gangland.mp3
+12:08-TotalEclipse.mp3
+playlist_end

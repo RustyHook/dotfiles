@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "description": "This is the official TinEye Chrome extension. Find out where an image came from, how it's used, or find higher resolution versions.",
+   "icons": {
+      "128": "tineye128.png",
+      "16": "tineye16.png",
+      "48": "tineye48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb3v5pTCmGFc63HpKlkbEORvvKjC1OjW0m3vzyHlNkDbu2Y2Ojh7jL0QaF6lRfbRtPBK16xomcffdKA3hMG4RvmqbruZPILN2W587gRugtoLlTCUJGagZDVisPR+btf9ePPSL9slkydVs5xCnvr86K1sxPJBgLgwUp+c/z3jEDKwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26.0.0.0",
+   "name": "TinEye Reverse Image Search",
+   "options_page": "options.html",
+   "permissions": [ "activeTab", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.4"
+}

@@ -1,0 +1,11 @@
+{
+   "children": [ {
+      "children": [  ],
+      "id": "2",
+      "subject": "Trash",
+      "type": "trash"
+   } ],
+   "id": "1",
+   "subject": "",
+   "type": "folder"
+}

@@ -1,0 +1,413 @@
+{
+   "checksum": "69fbeda1bd4029d282d7d627125cd3af",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13100060576233374",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13100060576773474",
+                  "id": "9",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "AB51E2BF-EBAE-4157-B119-6C478CE725DC",
+                     "imageData": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "5243A22ED78411B65CDA129005121CF941D086A621B144FBC0F990740924A7C8",
+                     "imageType": "2",
+                     "partner_id": "facebook",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Facebook",
+                  "type": "url",
+                  "url": "http://www.facebook.com/"
+               }, {
+                  "date_added": "13100060576773950",
+                  "id": "10",
+                  "meta_info": {
+                     "custom_keywords": "[\"Amazon\",\"Amazon.com\",\"Books\",\"Online Shopping\",\"Book Store\",\"Magazine\",\"Subscription\",\"Music\",\"CDs\",\"DVDs\",\"Videos\",\"Electronics\",\"Video Games\",\"Computers\",\"Cell Phones\",\"Toys\",\"Games\",\"Apparel\",\"Accessories\",\"Shoes\",\"Jewelry\",\"Watches\",\"Office Products\",\"Sports & Outdoors\",\"Sporting Goods\",\"Baby Products\",\"Health\",\"Personal Care\",\"Beauty\",\"Home\",\"Garden\",\"Bed & Bath\",\"Furniture\",\"Tools\",\"Hardware\",\"Vacuums\",\"Outdoor Living\",\"Automotive Parts\",\"Pet Supplies\",\"Broadband\",\"DSL\"]",
+                     "guid": "FABEA9C3-C55E-4EC8-ADEA-19A32908E6C6",
+                     "imageData": "http://redir.opera.com/speeddials/partner/amazon_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "34766F2D8F7BECB8271F8C134765B173DA8407A5F46CBFF3F2F4398F1B5A6ABA",
+                     "imageType": "2",
+                     "partner_id": "amazon_us",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/amazon_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/amazon_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Amazon.com",
+                  "type": "url",
+                  "url": "http://www.amazon.com/"
+               }, {
+                  "date_added": "13100060576774158",
+                  "id": "11",
+                  "meta_info": {
+                     "custom_keywords": "[\"ebay\",\"electronics\",\"cars\",\"clothing\",\"apparel\",\"collectibles\",\"sporting goods\",\"digital cameras\",\"antiques\",\"tickets\",\"jewelry\",\"online shopping\",\"auction\",\"online auction\"]",
+                     "guid": "23502138-E3AE-4F1D-B75E-CC55AD4F25F9",
+                     "imageData": "http://redir.opera.com/speeddials/partner/ebay_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "1F1E2F3D706796225F0DDA1D337BE6397D367263E5B297C932C0FB1EA95F1382",
+                     "imageType": "2",
+                     "partner_id": "ebay_us",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/ebay_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/ebay_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "eBay",
+                  "type": "url",
+                  "url": "http://www.ebay.com/"
+               }, {
+                  "date_added": "13100060576774360",
+                  "id": "12",
+                  "meta_info": {
+                     "custom_keywords": "[\"yahoo\",\"yahoo startside\",\"yahoo start side\",\"yahoo søk\",\"yahoo e-post\",\"yahoo messenger\",\"yahoo spill\",\"nyheter\",\"økonomi\",\"sport\",\"underholdning\"]",
+                     "guid": "5B9D7231-1A70-456F-8232-5856848EA215",
+                     "imageData": "http://redir.opera.com/speeddials/partner/yahoo?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "0E81F2EC9440D97E19A2F09F479E4E72174B44748E6210BB9DC8573D6FF4A041",
+                     "imageType": "2",
+                     "partner_id": "yahoo",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/yahoo?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/yahoo?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Yahoo!",
+                  "type": "url",
+                  "url": "http://www.yahoo.com/"
+               }, {
+                  "date_added": "13100060576774612",
+                  "id": "13",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "5126468C-56D7-11E5-99A2-70928BD11E5D",
+                     "imageData": "http://redir.opera.com/speeddials/partner/aliexpress_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "F885B4060044588AC297096E89EBFD7478D864B8DF37764E601EDCDCD0CF9F23",
+                     "imageType": "2",
+                     "partner_id": "aliexpress_com_us",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/aliexpress_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/aliexpress_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "AliExpress",
+                  "type": "url",
+                  "url": "http://aliexpress.com/"
+               }, {
+                  "date_added": "13100060576774847",
+                  "id": "14",
+                  "meta_info": {
+                     "custom_keywords": "[\"hotel\",\"hotels\",\"hostel\",\"hostels\",\"holidays\",\"special offers\",\"specials\",\"packages\",\"weekend breaks\",\"city breaks\",\"deals\",\"budget\",\"cheap\",\"discount\",\"savings\"]",
+                     "guid": "9D10E3EC-D109-4279-8A32-81F4E131891A",
+                     "imageData": "http://redir.opera.com/speeddials/partner/booking_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "1C6E16D104AEC48B14F29257CD0B71EA3BCE56115F8F2FAD4B56758FDB623988",
+                     "imageType": "2",
+                     "partner_id": "booking_com_us",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/booking_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/booking_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Booking.com: Cheap Hotels",
+                  "type": "url",
+                  "url": "http://www.booking.com/"
+               }, {
+                  "children": [ {
+                     "date_added": "13100060576775090",
+                     "id": "16",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "502BDD5E-788E-11E5-A8F5-906BA0D99A02",
+                        "imageData": "http://redir.opera.com/speeddials/partner/expedia_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "5FBB5D768310EDF03B3FCCA81A3BCF6FF9A81C0C02D05028953ADC836F6ADAAA",
+                        "imageType": "2",
+                        "partner_id": "expedia_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/expedia_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/expedia_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Expedia",
+                     "type": "url",
+                     "url": "http://www.expedia.com/"
+                  }, {
+                     "date_added": "13100060576775283",
+                     "id": "17",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "84EB796E-788E-11E5-9FCD-906BA0D99A02",
+                        "imageData": "http://redir.opera.com/speeddials/partner/macys_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "E476FC59D75F5DAF8E48D4D9E7479066E85783B9EDE1CFB2DD3F8FEA2639120E",
+                        "imageType": "2",
+                        "partner_id": "macys_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/macys_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/macys_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Macys",
+                     "type": "url",
+                     "url": "http://www.macys.com/"
+                  }, {
+                     "date_added": "13100060576775520",
+                     "id": "18",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "CA5F450C-7E47-11E5-AD34-E5F468A460B9",
+                        "imageData": "http://redir.opera.com/speeddials/partner/wallmart_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "6679926D632AE8D4BC2274EEA7F4131F989FD2A6C391E87C7D4763C17DFAE8DA",
+                        "imageType": "2",
+                        "partner_id": "wallmart_com_us",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/wallmart_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/wallmart_com_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Walmart",
+                     "type": "url",
+                     "url": "http://www.walmart.com/"
+                  }, {
+                     "date_added": "13100060576775739",
+                     "id": "19",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "4545EB06-788D-11E5-8852-35A564696656",
+                        "imageData": "http://redir.opera.com/speeddials/partner/nordstrom_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "A014E97FEDDA5D48FA29370B6C2286D3495C074EF88C342FE46312AA6B15BE52",
+                        "imageType": "2",
+                        "partner_id": "nordstrom_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/nordstrom_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/nordstrom_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Nordstrom",
+                     "type": "url",
+                     "url": "http://www.nordstrom.com/"
+                  }, {
+                     "date_added": "13100060576775966",
+                     "id": "20",
+                     "meta_info": {
+                        "custom_keywords": "[\"video\",\"sharing\",\"camera phone\",\"video phone\",\"free\",\"upload\"]",
+                        "guid": "CAFEC238-B329-458A-B84D-74F9F6CCF4E8",
+                        "imageData": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "45D0AA34B9346B9C1CD482F465D18E25EF796A0CE412B7CA7C86B0C2ACC9CBEE",
+                        "imageType": "2",
+                        "partner_id": "youtube",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "YouTube",
+                     "type": "url",
+                     "url": "http://www.youtube.com/"
+                  }, {
+                     "date_added": "13100060576778380",
+                     "id": "21",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "AD871A68-788E-11E5-A191-906BA0D99A02",
+                        "imageData": "http://redir.opera.com/speeddials/partner/priceline_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "2520518E785698CAAD7E3E4F30330DE91DFD24431270956FB103E9A08E2403F1",
+                        "imageType": "2",
+                        "partner_id": "priceline_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/priceline_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/priceline_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Priceline",
+                     "type": "url",
+                     "url": "http://www.priceline.com/"
+                  }, {
+                     "date_added": "13100060576778970",
+                     "id": "22",
+                     "meta_info": {
+                        "custom_keywords": "[\"Opera\",\"Opera Software\"]",
+                        "guid": "A724F2F7-489D-4F6A-934F-D632D12AA14E",
+                        "imageData": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "399E9C81D7778AD2E47FD312A489293BC25D782C40E9BAFFA064599358DB4F69",
+                        "imageType": "2",
+                        "partner_id": "product",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Let's connect",
+                     "type": "url",
+                     "url": "http://www.opera.com/follow"
+                  }, {
+                     "date_added": "13100060576779243",
+                     "id": "23",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "86030665-A834-44CE-B2A0-85E5868DA9C0",
+                        "imageData": "http://redir.opera.com/speeddials/partner/wikipedia_org_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "49B1200B64B853A45BA0FCD595A8A9001A4A3B3AF113C17B347015B3FFC166D6",
+                        "imageType": "2",
+                        "partner_id": "wikipedia_org_us",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/wikipedia_org_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/wikipedia_org_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Wikipedia",
+                     "type": "url",
+                     "url": "http://en.wikipedia.org/"
+                  }, {
+                     "date_added": "13100060576779541",
+                     "id": "24",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "286A7B48-F2FD-11E4-A23C-ED654B860EDE",
+                        "imageData": "http://redir.opera.com/speeddials/partner/buzzfeed_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "B464C824555E00E9778AA0AE6D133B3AF8AB808FD7831F233867E6973DDD9303",
+                        "imageType": "2",
+                        "partner_id": "buzzfeed_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/buzzfeed_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/buzzfeed_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "BuzzFeed",
+                     "type": "url",
+                     "url": "http://www.buzzfeed.com/"
+                  }, {
+                     "date_added": "13100060576779769",
+                     "id": "25",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "B00176BE-F317-11E4-B90D-F678B664A5DC",
+                        "imageData": "http://redir.opera.com/speeddials/partner/surfeasy?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "039399726519657F15241305D7300D638FCE25A7195D6454A6C7163577BEC313",
+                        "imageType": "2",
+                        "partner_id": "surfeasy",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/surfeasy?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/surfeasy?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "SurfEasy",
+                     "type": "url",
+                     "url": "http://www.surfeasy.com/"
+                  }, {
+                     "date_added": "13100060576779993",
+                     "id": "26",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "B9452F7E-B3CA-4F09-AE30-13E09085D38D",
+                        "imageData": "http://redir.opera.com/speeddials/partner/twitter_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "EECC566C3CCD2ACDC6F3F12FE1FD9C7D268DA3F0D8899C1E60CE1A27EFEC7F6C",
+                        "imageType": "2",
+                        "partner_id": "twitter_us",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/twitter_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/twitter_us?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Twitter",
+                     "type": "url",
+                     "url": "http://www.twitter.com/"
+                  }, {
+                     "date_added": "13100060576780229",
+                     "id": "27",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "143F43F2-7E48-11E5-98C8-E5F468A460B9",
+                        "imageData": "http://redir.opera.com/speeddials/partner/bestbuy_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "9FB4A0E67598DCAB80FFE4C76DEEB504C5EB9FA1767D28D9C3C0DC969D42D185",
+                        "imageType": "2",
+                        "partner_id": "bestbuy_com",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/bestbuy_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/bestbuy_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "BestBuy.com",
+                     "type": "url",
+                     "url": "http://www.bestbuy.com/"
+                  } ],
+                  "date_added": "13100060576775019",
+                  "date_modified": "13100060576780229",
+                  "id": "15",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "F5E80B10-6DD8-400E-9BD5-79DA525E2B0F",
+                     "partner_id": "",
+                     "partner_image_download_url": "",
+                     "partner_url": "",
+                     "redirect": "0"
+                  },
+                  "name": "",
+                  "type": "folder"
+               } ],
+               "date_added": "13100060576517185",
+               "date_modified": "13100060576774847",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "D6B969CB-2749-47DE-831F-979736962FA7"
+               },
+               "name": "archlinux",
+               "type": "folder"
+            } ],
+            "date_added": "13100060576516907",
+            "date_modified": "0",
+            "id": "6",
+            "name": "Speed Dial",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13100060576516909",
+            "date_modified": "0",
+            "id": "7",
+            "name": "Trash",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13100060576516896",
+            "date_modified": "0",
+            "id": "4",
+            "name": "Unsorted Bookmarks",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13100060576516899",
+            "date_modified": "0",
+            "id": "5",
+            "name": "My Folders",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13100060576233391",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13100060576233394",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,86 @@
+background yes
+use_xft yes
+xftfont Sans:size=7
+xftalpha 1
+update_interval 0.5
+total_run_times 0
+own_window yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour black
+own_window_argb_visual yes
+own_window_argb_value 120
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_bar_size 50
+alignment tl
+maximum_width 200
+minimum_size 200
+gap_x 1180
+gap_y 50
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale yes
+color1 ff0000
+color2 B7CE42 #0077ff   #006699   #ff8000
+color3 ff8000
+color4 80ff00
+color5 00ff00
+color6 00ff80
+
+
+##############################################
+#  Output
+##############################################
+TEXT
+
+VI Cheat Sheet
+${hr}
+Movement
+${hr}
+h - left
+j - down
+k - up
+l - right
+H - top
+L - bot
+G - EOF
+W - move by word(r)
+b - move by word(l)
+0 - Start of Line
+^ - first non-blank char in line
+dollar/sign - EOL
+C+B - go back one screen
+C+F - go fwd one screen
+n - Next match in search
+N - Prev match in searc
+${hr}
+Editing
+${hr}
+x - DEL
+X - backspace
+dd - Cut Line
+D - Cut from currPosition to EOL
+yy/Y - Yank the curr Line
+p - Paste in next line
+P - Paste in prev line
+. - Repeat the last command
+u - Undo
+${hr}
+Exe mode
+${hr}
+:n - switch to next file
+:e <file> - Load file
+:r <file> - Content of the file to next line
+:q - quit w/o saving
+:w <file> - Save buffer to file
+:w >> <file> - Append to existing file
+:wq - Save and Quit
+:r! <cmd> - Cmd output to next line
+

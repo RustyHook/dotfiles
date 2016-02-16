@@ -1,0 +1,281 @@
+{
+   "checksum": "72510c2b70eabb38311ce6eca7b24065",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13100060576233374",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13100060849458014",
+                  "id": "28",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "AB51E2BF-EBAE-4157-B119-6C478CE725DC",
+                     "imageData": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "5243A22ED78411B65CDA129005121CF941D086A621B144FBC0F990740924A7C8",
+                     "imageType": "2",
+                     "partner_id": "facebook",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/facebook?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Facebook",
+                  "type": "url",
+                  "url": "http://www.facebook.com/"
+               }, {
+                  "date_added": "13100060849458375",
+                  "id": "29",
+                  "meta_info": {
+                     "custom_keywords": "[\"hotels\",\"hostel\",\"holidays\",\"hotel\",\"хотел\",\"special offers\",\"packages\",\"specials\",\"weekend breaks\",\"city breaks\",\"deals\",\"budget\",\"cheap\",\"discount\",\"savings\"]",
+                     "guid": "799B9FB0-4FC7-49A7-956F-1D96E3D93C02",
+                     "imageData": "http://redir.opera.com/speeddials/partner/booking_com_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "1C6E16D104AEC48B14F29257CD0B71EA3BCE56115F8F2FAD4B56758FDB623988",
+                     "imageType": "2",
+                     "partner_id": "booking_com_rs",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/booking_com_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/booking_com_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Booking.com",
+                  "type": "url",
+                  "url": "http://www.booking.com/"
+               }, {
+                  "date_added": "13100060849458622",
+                  "id": "30",
+                  "meta_info": {
+                     "custom_keywords": "[\"Najnovije vesti\",\"Srbija\",\"svet\",\"ex-yu\",\"Republika Srpska\",\"Vojvodina\",\"tema dana\",\"ekonomija\",\"zanimljivosti\",\"kolumne\",\"sport\",\"fudbal\",\"šoubiznis\",\"estrada\",\"muzika\",\"film\",\"kultura\",\"putovanja\",\"trpeza\",\"lepota\",\"zdravlje\",\"nauka i tehnologija\",\"vicevi\",\"horoskop\",\"Evropa\",\"Australija\",\"Amerika\",\"servisne informacije\",\"video\"]",
+                     "guid": "45E21A80-D7AC-4D4D-97F7-BF966506C3B4",
+                     "imageData": "http://redir.opera.com/speeddials/partner/blic_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "A079392C9E5021FAF38D60B3071328DBC2B0A0E94AE8E180A7A07AB57EC87D57",
+                     "imageType": "2",
+                     "partner_id": "blic_rs",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/blic_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/blic_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Blic",
+                  "type": "url",
+                  "url": "http://www.blic.rs/"
+               }, {
+                  "date_added": "13100060849458831",
+                  "id": "31",
+                  "meta_info": {
+                     "custom_keywords": "[\"video\",\"sharing\",\"camera phone\",\"video phone\",\"free\",\"upload\"]",
+                     "guid": "CAFEC238-B329-458A-B84D-74F9F6CCF4E8",
+                     "imageData": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "45D0AA34B9346B9C1CD482F465D18E25EF796A0CE412B7CA7C86B0C2ACC9CBEE",
+                     "imageType": "2",
+                     "partner_id": "youtube",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/youtube?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "YouTube",
+                  "type": "url",
+                  "url": "http://www.youtube.com/"
+               }, {
+                  "date_added": "13100060849459090",
+                  "id": "32",
+                  "meta_info": {
+                     "custom_keywords": "[\"B92\",\"b92.net\",\"vesti\",\"online vesti\",\"najnovije vesti\",\"sport\",\"ekonomija\",\"biznis\",\"finansije\",\"berza\",\"kultura\",\"život\",\"putovanja\",\"automobili\",\"tehnologija\",\"radio\",\"televizija\",\"Radio B92\",\"TV B92\",\"internet televizija\",\"sms vesti\",\"podcast\"]",
+                     "guid": "8B9F1821-FA31-4796-95E3-28BAE5D6BA21",
+                     "imageData": "http://redir.opera.com/speeddials/partner/b92_net?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "C52621616F348C239CAB0188A726D1543C516DA1D9A0D13027805B7FC778BADB",
+                     "imageType": "2",
+                     "partner_id": "b92_net",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/b92_net?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/b92_net?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "B92",
+                  "type": "url",
+                  "url": "http://www.b92.net/"
+               }, {
+                  "date_added": "13100060849459347",
+                  "id": "33",
+                  "meta_info": {
+                     "custom_keywords": "[\"aukcije\",\"kupi\",\"prodaj\",\"10 dinara\",\"humanitarne aukcije\",\"najnovije aukcije\",\"Auto\",\"Moto\",\"Filatelija\",\"Kolekcionarstvo\",\"Galanterija\",\"Knjige\",\"Časopisi\",\"Odeća\",\"Obuća\",\"Računari\",\"Oprema\",\"Tehnika\",\"Društvene igre\",\"Umetnost\",\"Mašine\",\"Alati\",\"Numizmatika\",\"telefoni\"]",
+                     "guid": "BE46AF1C-1A97-4FEB-BC62-CCBEE92C5E57",
+                     "imageData": "http://redir.opera.com/speeddials/partner/limundo_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "imageDataType": "2",
+                     "imageID": "81FF4063C071F354CEFD81B4099093634A2140D6F95191E05A6A06ACA4FCA4EE",
+                     "imageType": "2",
+                     "partner_id": "limundo_com",
+                     "partner_image_download_url": "http://redir.opera.com/speeddials/partner/limundo_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "partner_url": "http://redir.opera.com/speeddials/partner/limundo_com?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                     "redirect": "1"
+                  },
+                  "name": "Limundo",
+                  "type": "url",
+                  "url": "http://www.limundo.com/"
+               }, {
+                  "children": [ {
+                     "date_added": "13100060849459626",
+                     "id": "35",
+                     "meta_info": {
+                        "custom_keywords": "[\"Opera\",\"Opera Software\"]",
+                        "guid": "A724F2F7-489D-4F6A-934F-D632D12AA14E",
+                        "imageData": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "399E9C81D7778AD2E47FD312A489293BC25D782C40E9BAFFA064599358DB4F69",
+                        "imageType": "2",
+                        "partner_id": "product",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/product?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Let's connect",
+                     "type": "url",
+                     "url": "http://www.opera.com/follow"
+                  }, {
+                     "date_added": "13100060849459850",
+                     "id": "36",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "8A343916-10B6-43A5-AE21-24AC347FD9A2",
+                        "imageData": "http://redir.opera.com/speeddials/partner/wikipedia_org_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "49B1200B64B853A45BA0FCD595A8A9001A4A3B3AF113C17B347015B3FFC166D6",
+                        "imageType": "2",
+                        "partner_id": "wikipedia_org_rs",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/wikipedia_org_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/wikipedia_org_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Википедија",
+                     "type": "url",
+                     "url": "http://sr.wikipedia.org/"
+                  }, {
+                     "date_added": "13100060849460084",
+                     "id": "37",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "98FB433E-F20B-4260-AFF4-47DBA4E9E599",
+                        "imageData": "http://redir.opera.com/speeddials/partner/kurir-info_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "3EC4F5CD78446B4F773C8A7BACD63D0F6BD0B205C7F766E671424650970760D1",
+                        "imageType": "2",
+                        "partner_id": "kurir-info_rs",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/kurir-info_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/kurir-info_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Kurir",
+                     "type": "url",
+                     "url": "http://www.kurir-info.rs/"
+                  }, {
+                     "date_added": "13100060849460300",
+                     "id": "38",
+                     "meta_info": {
+                        "custom_keywords": "[]",
+                        "guid": "4CCC9236-4E51-41B1-B15B-004592DA5185",
+                        "imageData": "http://redir.opera.com/speeddials/partner/twitter_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "imageDataType": "2",
+                        "imageID": "EECC566C3CCD2ACDC6F3F12FE1FD9C7D268DA3F0D8899C1E60CE1A27EFEC7F6C",
+                        "imageType": "2",
+                        "partner_id": "twitter_rs",
+                        "partner_image_download_url": "http://redir.opera.com/speeddials/partner/twitter_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "partner_url": "http://redir.opera.com/speeddials/partner/twitter_rs?ab_tests=DNA-42884-us%3ADNA-42884-us",
+                        "redirect": "1"
+                     },
+                     "name": "Twitter",
+                     "type": "url",
+                     "url": "http://www.twitter.com/"
+                  } ],
+                  "date_added": "13100060849459540",
+                  "date_modified": "13100060849460300",
+                  "id": "34",
+                  "meta_info": {
+                     "custom_keywords": "[]",
+                     "guid": "214A209E-08D3-4DCA-867D-E000EFDAFDC3",
+                     "partner_id": "",
+                     "partner_image_download_url": "",
+                     "partner_url": "",
+                     "redirect": "0"
+                  },
+                  "name": "",
+                  "type": "folder"
+               } ],
+               "date_added": "13100060576517185",
+               "date_modified": "13100060849459347",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "D6B969CB-2749-47DE-831F-979736962FA7"
+               },
+               "name": "archlinux",
+               "type": "folder"
+            } ],
+            "date_added": "13100060576516907",
+            "date_modified": "0",
+            "id": "6",
+            "name": "Speed Dial",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13100060576516909",
+            "date_modified": "0",
+            "id": "7",
+            "name": "Trash",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [ {
+               "date_added": "13100062139020964",
+               "id": "39",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "41EE83BFF6E469D5E944C9578E973803199F5714632D923630147E25E9416F82",
+                  "imageIdentifier": "41854c64",
+                  "imageType": "2"
+               },
+               "name": "WeakNet Labs: WEAKERTHAN Linux 6",
+               "type": "url",
+               "url": "http://www.weaknetlabs.com/p/weakerthan-linux-6.html"
+            } ],
+            "date_added": "13100060576516896",
+            "date_modified": "13100062139020964",
+            "id": "4",
+            "name": "Unsorted Bookmarks",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13100060576516899",
+            "date_modified": "0",
+            "id": "5",
+            "name": "My Folders",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13100060576233391",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13100060576233394",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

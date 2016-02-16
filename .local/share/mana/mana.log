@@ -1,0 +1,91 @@
+[00:16:11.84] Mana v0.6.1
+[00:16:11.84] Initializing SDL...
+[00:16:11.94] Initializing resource manager...
+[00:16:11.94] Adding to PhysicsFS: /usr/share/mana/data
+[00:16:11.94] Adding to PhysicsFS: data
+[00:16:11.94] Error: File not found
+[00:16:11.94] Adding to PhysicsFS: /home/shibari//.local/share/mana
+[00:16:11.94] Loading icon from file: /usr/share/mana/data/icons/mana.png
+[00:16:11.94] Setting video mode 800x600 windowed
+[00:16:11.94] Bits per pixel: 0
+[00:16:11.95] Using video driver: x11
+[00:16:11.95] Possible to create hardware surfaces: no
+[00:16:11.95] Window manager available: yes
+[00:16:11.95] Accelerated hardware to hardware blits: no
+[00:16:11.95] Accelerated hardware to hardware colorkey blits: no
+[00:16:11.95] Accelerated hardware to hardware alpha blits: no
+[00:16:11.95] Accelerated software to hardware blits: no
+[00:16:11.95] Accelerated software to hardware colorkey blits: no
+[00:16:11.95] Accelerated software to hardware alpha blits: no
+[00:16:11.95] Accelerated color fills: no
+[00:16:11.95] Available video memory: 0
+[00:16:11.95] Loaded /usr/share/mana/data/graphics/gui//colors.xml
+[00:16:12.00] Initializing GUI...
+[00:16:12.15] Sound::init() Initializing sound...
+[00:16:12.22] Sound::info() SDL_mixer: 1.2.12 (compiled)
+[00:16:12.22] Sound::info() SDL_mixer: 1.2.12 (linked)
+[00:16:12.22] Sound::info() Driver: alsa
+[00:16:12.22] Sound::info() Format: S16LSB
+[00:16:12.22] Sound::info() Rate: 22050
+[00:16:12.22] Sound::info() Channels: 2
+[00:16:12.22] Window::Window("Setup")
+[00:16:12.22] Loading skin 'window.xml'.
+[00:16:12.22] Loaded /usr/share/mana/data/graphics/gui//window.xml
+[00:16:12.40] Theme::load(): <skinset> defines 'window.png' as a skin image.
+[00:16:12.46] Finished loading skin.
+[00:16:12.61] Popup::Popup("TextPopup")
+[00:16:13.50] State: CHOOSE SERVER
+[00:16:13.50] Window::Window("Choose Your Server")
+[00:16:13.52] Starting download: http://manasource.org/serverlist.xml
+[00:16:13.52] Downloading: http://manasource.org/serverlist.xml
+[00:16:18.01] Ignoring server entry with unknown type: manaserv
+[00:58:51.44] Setting video mode 1366x750 windowed
+[00:58:51.44] Bits per pixel: 0
+[00:58:51.45] Using video driver: x11
+[00:58:51.45] Possible to create hardware surfaces: no
+[00:58:51.45] Window manager available: yes
+[00:58:51.45] Accelerated hardware to hardware blits: no
+[00:58:51.45] Accelerated hardware to hardware colorkey blits: no
+[00:58:51.45] Accelerated hardware to hardware alpha blits: no
+[00:58:51.45] Accelerated software to hardware blits: no
+[00:58:51.45] Accelerated software to hardware colorkey blits: no
+[00:58:51.45] Accelerated software to hardware alpha blits: no
+[00:58:51.45] Accelerated color fills: no
+[00:58:51.45] Available video memory: 0
+[00:58:56.57] Canceling download: http://manasource.org/serverlist.xml
+[00:58:56.59] Canceling download: http://manasource.org/serverlist.xml
+[00:58:56.59] Window::~Window("Choose Your Server")
+[00:58:56.59] State: CONNECT SERVER
+[00:58:56.59] Network::Connecting to server.themanaworld.org:6901
+[00:58:56.59] Window::Window("")
+[01:01:06.05] Error in SDLNet_TCP_Open(): Couldn't connect to remote host
+[01:01:06.05] Network error: Couldn't connect to remote host
+[01:01:06.07] Window::~Window("")
+[01:01:06.07] State: ERROR
+[01:01:06.07] Error: Couldn't connect to remote host
+[01:01:06.07] Window::Window("Error")
+[01:12:29.64] Window::~Window("Error")
+[01:12:29.65] State: CHOOSE SERVER
+[01:12:29.65] Window::Window("Choose Your Server")
+[01:12:29.65] Starting download: http://manasource.org/serverlist.xml
+[01:12:29.65] Downloading: http://manasource.org/serverlist.xml
+[01:12:31.54] Canceling download: http://manasource.org/serverlist.xml
+[01:12:32.00] Canceling download: http://manasource.org/serverlist.xml
+[01:12:32.00] Window::~Window("Choose Your Server")
+[01:12:32.00] State: CONNECT SERVER
+[01:12:32.00] Network::Connecting to server.themanaworld.org:6901
+[01:12:32.00] Window::Window("")
+[01:12:39.98] Window::~Window("")
+[01:12:39.98] State: EXIT
+[01:12:39.99] Window::~Window("Setup")
+[01:12:39.99] Popup::~Popup("TextPopup")
+[01:12:39.99] Sound::close() Shutting down sound...
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 2 references to graphics/gui//progress-indicator.png[32x32]
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 9 references to graphics/gui//button.png
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 9 references to graphics/gui//button_disabled.png
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 9 references to graphics/gui//buttonhi.png
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 9 references to graphics/gui//buttonpress.png
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 4 references to graphics/gui//tab_arrows_left.png
+[01:12:40.08] ResourceManager::~ResourceManager() cleaning up 4 references to graphics/gui//tab_arrows_right.png
+[01:12:40.08] Quitting
+[01:12:40.08] Configuration::write() writing configuration...

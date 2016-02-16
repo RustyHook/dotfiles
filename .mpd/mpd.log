@@ -1,0 +1,63 @@
+Feb 05 20:44 : errno: Failed to open /home/shibari/.mpd/mpdstate: No such file or directory
+Feb 05 20:46 : client: [0] opened from 127.0.0.1:58746
+Feb 05 20:46 : client: [0] closed
+Feb 05 20:47 : client: [1] opened from 127.0.0.1:58748
+Feb 05 20:48 : client: [1] closed
+Feb 05 20:49 : client: [2] opened from 127.0.0.1:58752
+Feb 05 20:49 : playlist: No such playlist
+Feb 05 20:52 : client: [2] closed
+Feb 05 20:52 : client: [3] opened from 127.0.0.1:58786
+Feb 05 20:54 : client: [3] closed
+Feb 05 20:54 : avahi: Client Disconnected, will reconnect shortly
+Feb 05 20:54 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Feb 06 01:26 : client: [0] opened from 127.0.0.1:57318
+Feb 06 01:26 : playlist: No such playlist
+Feb 06 01:45 : client: [0] closed
+Feb 06 01:50 : client: [0] opened from 127.0.0.1:41180
+Feb 06 01:50 : db: No such directory
+Feb 06 01:50 : playlist: No such playlist
+Feb 06 01:51 : update: added /05-TheNumberOfTheBeast.mp3
+Feb 06 01:51 : update: added /03-ThePrisoner.ogg
+Feb 06 01:51 : update: added /08-TotalEclipse.mp3
+Feb 06 01:51 : update: added /03-ThePrisoner.mp3
+Feb 06 01:51 : update: added /04-22AcaciaAvenue.ogg
+Feb 06 01:51 : update: added /07-Gangland.mp3
+Feb 06 01:51 : update: added /05-TheNumberOfTheBeast.ogg
+Feb 06 01:51 : update: added /01-Invaders.ogg
+Feb 06 01:51 : update: added /01-Invaders.mp3
+Feb 06 01:51 : update: added /06-RunToTheHills.mp3
+Feb 06 01:51 : update: added /06-RunToTheHills.ogg
+Feb 06 01:51 : update: added /08-TotalEclipse.ogg
+Feb 06 01:51 : update: added /02-ChildrenOfTheDamned.ogg
+Feb 06 01:51 : update: added /09-HallowedBeThyName.ogg
+Feb 06 01:51 : update: added /02-ChildrenOfTheDamned.mp3
+Feb 06 01:51 : update: added /09-HallowedBeThyName.mp3
+Feb 06 01:51 : update: added /04-22AcaciaAvenue.mp3
+Feb 06 01:51 : update: added /07-Gangland.ogg
+Feb 06 01:53 : client: [0] closed
+Feb 06 01:54 : client: [0] opened from 127.0.0.1:43148
+Feb 06 01:55 : client: [0] closed
+Feb 06 01:56 : client: [1] opened from 127.0.0.1:43910
+Feb 06 02:00 : player: played "01-Invaders.mp3"
+Feb 06 02:06 : player: played "03-ThePrisoner.mp3"
+Feb 06 02:09 : player: played "04-22AcaciaAvenue.mp3"
+Feb 06 02:09 : player: played "09-HallowedBeThyName.ogg"
+Feb 06 02:09 : player: played "09-HallowedBeThyName.mp3"
+Feb 06 02:16 : player: played "04-22AcaciaAvenue.mp3"
+Feb 06 02:17 : client: [1] closed
+Feb 06 02:20 : client: [0] opened from 127.0.0.1:48424
+Feb 06 17:06 : client: [0] opened from 127.0.0.1:35096
+Feb 06 18:04 : client: [0] opened from 127.0.0.1:41132
+Feb 06 18:05 : player: played "03-ThePrisoner.mp3"
+Feb 06 18:05 : client: [0] closed
+Feb 06 18:05 : player: played "02-ChildrenOfTheDamned.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Feb 06 18:05 : alsa_output: Failed to open "alsa" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Feb 06 18:09 : player: played "02-ChildrenOfTheDamned.mp3"
+Feb 06 18:13 : player: played "01-Invaders.mp3"
+Feb 06 18:17 : player: played "05-TheNumberOfTheBeast.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Feb 06 18:17 : alsa_output: Failed to open "alsa" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Feb 06 18:21 : player: played "06-RunToTheHills.ogg"
+Feb 06 18:25 : player: played "07-Gangland.mp3"
+Feb 06 18:29 : player: played "08-TotalEclipse.mp3"

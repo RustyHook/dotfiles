@@ -1,0 +1,429 @@
+2016-02-05 22:55:57	-->	shibari_ (~shibari@212.178.250.49) has joined #archlinux
+2016-02-05 22:55:57	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> pacman 5.0 in [core]! http://allanmcrae.com/2016/01/pacman-5-0-released/ <+> old package-query versions are incompatible with pacman 5.0, update it or remove it along with yaourt"
+2016-02-05 22:55:57	--	Topic set by demize on Thu, 04 Feb 2016 20:18:50
+2016-02-05 22:55:58	--	Channel #archlinux: 1592 nicks (2 ops, 0 voices, 1590 normals)
+2016-02-05 22:55:59	--	Channel created on Sun, 15 Feb 2004 06:08:31
+2016-02-05 22:56:01	-->	Donjuanal (~znc@d-65-175-229-107.cpe.metrocast.net) has joined #archlinux
+2016-02-05 22:56:04	strayArch	I'm just toying around tbh
+2016-02-05 22:56:06	sudokode	lol why would you do that
+2016-02-05 22:56:28	sudokode	also, removing a symlink shouldn't remove the target
+2016-02-05 22:56:34	sudokode	unless you follow links
+2016-02-05 22:56:50	sudokode	which isn't a thing rm can do apparently
+2016-02-05 22:56:52	sudokode	sounds scary
+2016-02-05 22:56:53	Earnestea	yay lstat lunlink lcomplexity
+2016-02-05 22:57:14	Earnestea	sudokode: Woe to anyone who has to deal with the difference between a symlink and a normal file
+2016-02-05 22:57:20	sudokode	heh
+2016-02-05 22:57:21	alad	hm, why does systemctl edit create suid .conf files ..
+2016-02-05 22:57:30	Earnestea	symlinks get their own version of *system calls* for crying out loud
+2016-02-05 22:57:47	Earnestea	alad: lol, show me stat
+2016-02-05 22:57:50	-->	UnfairLife (~tyler@CPE48f8b3caebff-CMbc4dfb26e840.cpe.net.cable.rogers.com) has joined #archlinux
+2016-02-05 22:57:55	sudokode	Earnestea: I just assume anything that's 777 is a symlink :P
+2016-02-05 22:58:10	Earnestea	sudokode: Oh man but imagine having to know if you can follow them or not
+2016-02-05 22:58:11	alad	Earnestea: https://ptpb.pw/HPKG
+2016-02-05 22:58:18	sudokode	Earnestea: heh yeah
+2016-02-05 22:58:26	<--	mutsy (~muts@546B8949.cm-12-4c.dynamic.ziggo.nl) has quit (Ping timeout: 245 seconds)
+2016-02-05 22:58:29	Earnestea	sudokode: Consider recursive rm
+2016-02-05 22:58:41	sudokode	that would be fantastic
+2016-02-05 22:58:42	Earnestea	sudokode: It's no wonder if doesn't try to deal with symlinks that would insane
+2016-02-05 22:58:49	shibari_	Anyone have any idea why these fonts are so space out? http://i.imgur.com/Q2JlnkY.png | when I put it in another config and call them the same way, they turn out normal (Probably not the right channel, but I really don't know where else to ask, unless there is #archfonts ch)
+2016-02-05 22:58:49	Earnestea	alad: lolwut
+2016-02-05 22:58:50	-->	donkeybox (~david@c-24-62-35-73.hsd1.ma.comcast.net) has joined #archlinux
+2016-02-05 23:00:13	Earnestea	alad: Yeah, I can't find anything
+2016-02-05 23:00:17	TheLemonMan	the spacing looks correct
+2016-02-05 23:00:27	alad	shibari_: you're talking about the bar?
+2016-02-05 23:00:31	<--	yiati (uid84597@gateway/web/irccloud.com/x-vwhuretpajkigcht) has quit (Quit: Connection closed for inactivity)
+2016-02-05 23:00:38	-->	YungRaj (~YungRaj@70-139-212-121.lightspeed.cyprtx.sbcglobal.net) has joined #archlinux
+2016-02-05 23:00:51	shibari_	alad: yes, forgot to mention, also modified terminus font(which should be pretty condensed)
+2016-02-05 23:01:07	alad	Earnestea: so, I guess I should file a bug?
+2016-02-05 23:01:12	Earnestea	shibari_: terminus isn't a very narrow font
+2016-02-05 23:01:14	Earnestea	alad: Maybe
+2016-02-05 23:01:28	shibari_	Earnestea: isn't this spaced either, so yeah, still an issue :/
+2016-02-05 23:01:46	<--	rubdos (~rubdos@d51A5625E.access.telenet.be) has quit (Quit: Leaving)
+2016-02-05 23:01:58	-->	karlthane (~quassel@vps01.exabytetech.us) has joined #archlinux
+2016-02-05 23:02:01	Earnestea	shibari_: In the bar?
+2016-02-05 23:02:10	sudokode	oh status bar
+2016-02-05 23:02:13	sudokode	ew
+2016-02-05 23:02:15	sudokode	what have you done
+2016-02-05 23:02:21	Earnestea	Yeah, that's broken
+2016-02-05 23:02:21	Crumbz	is it possible to pull aur build scripts with abs?
+2016-02-05 23:02:29	shibari_	Earnestea: yeah, bar is the problematic one | also, in terminal its the normal terminus font for comparison
+2016-02-05 23:02:39	demize	Crumbz: ... No.
+2016-02-05 23:02:41	Earnestea	shibari_: The terminal is fine
+2016-02-05 23:02:47	demize	Crumbz: Use git.
+2016-02-05 23:02:53	-->	NuzzlePaws (~anonymous@cpe-174-99-95-87.nc.res.rr.com) has joined #archlinux
+2016-02-05 23:02:56	shibari_	Yeah terminal is great, I want the same on bar tho :(
+2016-02-05 23:02:57	Crumbz	okay
+2016-02-05 23:03:12	sudokode	shibari_: well, give us the deets
+2016-02-05 23:03:18	-->	beardedeagle (~beardedea@ip-216-69-191-1.ip.secureserver.net) has joined #archlinux
+2016-02-05 23:03:18	sudokode	which bar, config file, etc
+2016-02-05 23:03:20	<--	acarrico (~acarrico@209.99.214.127) has quit (Ping timeout: 276 seconds)
+2016-02-05 23:03:37	shibari_	sudokode: i3bar, lemme make a paste of conf
+2016-02-05 23:03:37	jokke	hey
+2016-02-05 23:03:42	sudokode	oh boy
+2016-02-05 23:03:43	-->	squinty (~squinty@S01069cd643d2c8a1.du.shawcable.net) has joined #archlinux
+2016-02-05 23:03:44	-->	SgrA (~sgra@unaffiliated/sgra) has joined #archlinux
+2016-02-05 23:03:46	sudokode	use a different bar
+2016-02-05 23:03:53	sudokode	i3bar is such an enormous piece of shit
+2016-02-05 23:03:55	Donjuanal	Anyone in here use PIA with their Arch install?
+2016-02-05 23:03:56	jokke	is there any way to easily restart all services under a target?
+2016-02-05 23:04:53	Namarrgon	Donjuanal: arch is always a pain in the ass, no need to ask
+2016-02-05 23:05:01	alad	lol
+2016-02-05 23:05:06	sudokode	jokke: which target
+2016-02-05 23:05:06	<--	mikar (~max@ip-178-201-57-61.hsi08.unitymediagroup.de) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:05:10	jokke	sudokode: my own
+2016-02-05 23:05:14	sudokode	hm
+2016-02-05 23:05:19	-->	ralpheeee (~ralpheeee@cable-78-34-50-177.netcologne.de) has joined #archlinux
+2016-02-05 23:05:19	Earnestea	alad: I don't see where in the code it should be making 7755 files
+2016-02-05 23:05:36	<--	fr0gRIP (~fr0gRIP@137.21.152.180) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:06:04	Donjuanal	Namarrgon: well my question is very specific to Arch and PIA, so i didnt want to bother anyone that doesn't use it...I'm trying to route specific applications over the PIA VPN Only
+2016-02-05 23:06:10	sudokode	jokke: I don't suppose systemctl restart foo.target works?
+2016-02-05 23:06:15	Earnestea	alad: So yeah bug report
+2016-02-05 23:06:22	jokke	sudokode: nope :)
+2016-02-05 23:06:26	<--	j605 (~j605@unaffiliated/j605) has quit (Quit: WeeChat 1.4)
+2016-02-05 23:06:35	-->	augustan (~dat-letha@2a02:810d:ac0:20f8:2ab2:bdff:feac:f01c) has joined #archlinux
+2016-02-05 23:06:49	jokke	it works partly as it starts any services not yet started in that target
+2016-02-05 23:06:57	<--	fogobogooo (~fogobogo@unaffiliated/fogobogo) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:07:12	jokke	(if they were enabled afterwards)
+2016-02-05 23:07:24	shibari_	sudokode: yes, it is, but it's the only one that didn;t give me headaches(much) | here's the config, important thing is at the bottom under bar {} http://dpaste.com/3BAS3V9
+2016-02-05 23:07:25	@phrik	Title: dpaste: 3BAS3V9 (at dpaste.com)
+2016-02-05 23:07:41	<--	MaxCire (~ehanson@199.17.55.137) has quit (Quit: MaxCire)
+2016-02-05 23:08:13	-->	angerctl (~Namarrgon@55d44daf.access.ecotel.net) has joined #archlinux
+2016-02-05 23:08:17	<--	SovereignBleak_ (~quassel@87-63-89-50-static.dk.customer.tdc.net) has quit (Ping timeout: 250 seconds)
+2016-02-05 23:08:19	--	NuzzlePaws is now known as DetectiveDino
+2016-02-05 23:08:28	<--	Namarrgon (~Namarrgon@55d40a0a.access.ecotel.net) has quit (Disconnected by services)
+2016-02-05 23:08:31	--	angerctl is now known as Namarrgon
+2016-02-05 23:08:43	alad	Earnestea: https://github.com/systemd/systemd/issues/2538
+2016-02-05 23:08:44	@phrik	Title: systemctl edit creates SUID files · Issue #2538 · systemd/systemd · GitHub (at github.com)
+2016-02-05 23:09:41	<--	victorheld (~vicx@ip503c53dc.speed.planet.nl) has quit (Quit: WeeChat 1.4)
+2016-02-05 23:09:59	-->	in1t3r (~LordShiva@unaffiliated/lordshiva) has joined #archlinux
+2016-02-05 23:10:17	-->	mohabaks (~zer0ph@105.231.20.96) has joined #archlinux
+2016-02-05 23:10:38	<--	donkeybox (~david@c-24-62-35-73.hsd1.ma.comcast.net) has quit (Ping timeout: 252 seconds)
+2016-02-05 23:10:52	-->	siidney (~siid@181.174.89.111) has joined #archlinux
+2016-02-05 23:11:15	-->	manizzle (~manizzle@c-69-181-7-109.hsd1.ca.comcast.net) has joined #archlinux
+2016-02-05 23:11:25	<--	johns276 (~Thunderbi@129.59.132.117) has quit (Quit: Oh, I am so done.)
+2016-02-05 23:12:43	-->	xananax (~xananax@212.36.210.24) has joined #archlinux
+2016-02-05 23:13:12	sudokode	alad: confirmed
+2016-02-05 23:13:26	sudokode	https://ptpb.pw/R2Hh
+2016-02-05 23:13:36	-->	tumbler (~tumbler@unaffiliated/tumbler) has joined #archlinux
+2016-02-05 23:13:41	sudokode	why would it be suid :<
+2016-02-05 23:13:53	sudokode	then again, why does it matter?
+2016-02-05 23:14:29	alad	well the file is owned by root, so I guess it doesn't really
+2016-02-05 23:14:35	sudokode	yeah
+2016-02-05 23:14:37	sudokode	hm
+2016-02-05 23:14:50	alad	but if there's some weird bug causing this, it may set suid on a user-owned file
+2016-02-05 23:14:56	alad	at some point
+2016-02-05 23:15:13	-->	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2016-02-05 23:15:33	<--	reqq456 (~reqq456@178-17-174-27.ip.as43289.net) has quit (Ping timeout: 248 seconds)
+2016-02-05 23:15:39	<--	gffa (~unknown@unaffiliated/gffa) has quit (Quit: sleep)
+2016-02-05 23:15:51	<--	mohan43u_ (~mohan@101.222.166.61) has quit (Remote host closed the connection)
+2016-02-05 23:15:59	xananax	Hello, I've got a small SSD (ext3) on which arch is installed, and a larger regular SATA (NTFS). Since my SSD is really small, I try to keep most stuff on my NTFS Sata drive (dual booting windows). No problem in general, but here I have a software that won't run without a particular set of permissions and ownership on a particular file. I can't move the software on my Ext3, since it's too large. Do I have any recourse?
+2016-02-05 23:16:04	sudokode	alad: systemctl --user edit doesn't do the same
+2016-02-05 23:16:19	sudokode	https://ptpb.pw/97KH
+2016-02-05 23:16:23	alad	actually, it seems I derped on what suid does
+2016-02-05 23:16:35	sudokode	lol
+2016-02-05 23:16:40	-->	reqq456 (~reqq456@178-17-174-27.ip.as43289.net) has joined #archlinux
+2016-02-05 23:17:05	alad	that it's root owned doesn't excuse it, just that it isn't executable?
+2016-02-05 23:17:09	<--	levitation (~roar@i231179.upc-i.chello.nl) has left #archlinux
+2016-02-05 23:17:30	sudokode	what?
+2016-02-05 23:17:44	xananax	To be more specific, I'm trying to get Unity3D to run, and it's 3gigs big, and needs a specific file ("chrome-sandbox") to be root/root +4755. My / is only 14 gigs big, so I can't have 3 full gigs allocated to unity only
+2016-02-05 23:17:50	<--	jheretic (~jheretic@207.155.208.126.ptr.us.xo.net) has quit (Quit: Leaving.)
+2016-02-05 23:18:12	-->	Joshua^Dunamis (~manjaro-k@93-46-44-240.ip106.fastwebnet.it) has joined #archlinux
+2016-02-05 23:18:13	sudokode	xananax: so?
+2016-02-05 23:18:17	alad	sudokode: nevermind
+2016-02-05 23:18:19	sudokode	use a symlink or something
+2016-02-05 23:18:22	-->	acarrico (~acarrico@richmon2-dhcp-62.greenmountainaccess.net) has joined #archlinux
+2016-02-05 23:18:25	<--	Pliskin (~Pliskin@AMontsouris-653-1-304-178.w90-44.abo.wanadoo.fr) has left #archlinux
+2016-02-05 23:18:27	-->	easo2k (~a@unaffiliated/easo2k) has joined #archlinux
+2016-02-05 23:18:35	xananax	sudokode, is there anything I can do to set permissions on a particular file on an NTFS drive?
+2016-02-05 23:19:04	<--	zerick (~zerick@irc.quassel.zerick.me) has quit (Remote host closed the connection)
+2016-02-05 23:19:17	sudokode	ntfs?
+2016-02-05 23:19:17	<--	neurdrone (~Thunderbi@184.16.241.4) has quit (Quit: neurdrone)
+2016-02-05 23:19:26	alad	sudokode: I can confirm your stat on systemctl --user edit
+2016-02-05 23:19:29	sudokode	you only have a / fs and then everything else is ntfs?
+2016-02-05 23:19:34	alad	sudokode: but now it's executable for some reason heh
+2016-02-05 23:19:41	-->	vkt (~vkt@053d8de0.dynamic.tele-ag.de) has joined #archlinux
+2016-02-05 23:19:44	xananax	sudokode, yeah, the drive I'm trying to get unity to run from is NTFS (through ntfs-4g)
+2016-02-05 23:19:46	sudokode	alad: suid replaces the executable part
+2016-02-05 23:20:05	<--	EN2831 (~EN2831@5.28.184.127) has quit (Quit: Leaving)
+2016-02-05 23:20:08	-->	nous (~nous@ip-2a02-2149-862f-8a00-0225-22ff-fe02-3ffe.ip6.forthnet.gr) has joined #archlinux
+2016-02-05 23:20:12	xananax	sudokode, yeah, I have my ssd with arch, and a larger drive which is ntfs
+2016-02-05 23:20:20	alad	sudokode: yeah, but the .conf file should just be 664, right?
+2016-02-05 23:20:20	-->	danilonc (uid63570@gateway/web/irccloud.com/x-mhkgjaqblylnrmfo) has joined #archlinux
+2016-02-05 23:20:35	sudokode	alad: not if it's being executed, I guess?
+2016-02-05 23:20:47	alad	hm
+2016-02-05 23:20:49	sudokode	that's the real question. why does the override file have to be executable
+2016-02-05 23:20:53	<--	cored (~cored@unaffiliated/cored) has quit (Ping timeout: 250 seconds)
+2016-02-05 23:21:01	sudokode	I don't even know what any of that override shit is
+2016-02-05 23:22:02	sudokode	wat
+2016-02-05 23:22:18	-->	archsg (~adibemax@unaffiliated/supergirl) has joined #archlinux
+2016-02-05 23:22:22	<--	knidos (~knidos@78.174.109.160) has left #archlinux ("WeeChat 1.4")
+2016-02-05 23:22:24	archsg	Rawr.
+2016-02-05 23:23:00	Halfwit	!give sudokode yt friday
+2016-02-05 23:23:01	@phrik	sudokode: Friday - Rebecca Black - Official Music Video - YouTube: <https://www.youtube.com/watch?v=kfVsfOSbJY0>
+2016-02-05 23:23:04	sudokode	mmm
+2016-02-05 23:23:09	-->	ivs (~ivs@unaffiliated/ivs) has joined #archlinux
+2016-02-05 23:23:15	-->	Soaked (~Soaked@unaffiliated/soaked) has joined #archlinux
+2016-02-05 23:23:27	archsg	I had an interesting issue the other day after an update. My headphones literally stopped working for whatever reason. I eventually determined that it was something to do with suspend/hibernate. It killed my headphones. Even though nothing was mutated in alsamixer or pavucontrol, I did a shutdown and it fixed it. Reboot didn't fix it. I had to literally shutdown and boot up again. It was odd.
+2016-02-05 23:23:34	-->	nyarlu (~brandon@CPE-120-146-221-115.static.vic.bigpond.net.au) has joined #archlinux
+2016-02-05 23:23:36	<--	Rotzke (~Rotzke@109.87.181.136) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:23:41	archsg	*muted
+2016-02-05 23:23:55	-->	donkeybox (~david@c-24-62-35-73.hsd1.ma.comcast.net) has joined #archlinux
+2016-02-05 23:24:08	-->	minimalism (~minimalis@unaffiliated/minimalism) has joined #archlinux
+2016-02-05 23:24:08	Halfwit	archsg: Super hearing probably messed it up. 
+2016-02-05 23:24:12	-->	Inglipz (~inglipz@2a01:e34:ef9a:8ee0:a62:66ff:feb3:6ce8) has joined #archlinux
+2016-02-05 23:24:14	archsg	Halfwit: >_>
+2016-02-05 23:24:19	sudokode	alad: this comment makes no sense
+2016-02-05 23:24:23	<--	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has quit (Quit: Quit:  Catch you on the back nine.)
+2016-02-05 23:24:26	<--	endre (~endre@end.re) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:24:30	alad	Halfwit: I hope black friday isn't your main experience with death metal :p
+2016-02-05 23:24:35	<--	leothrix (~leothrix@elastic/staff/leothrix) has quit
+2016-02-05 23:24:42	-->	crunchiebones (~jy@188.74.64.243) has joined #archlinux
+2016-02-05 23:24:42	Halfwit	alad: No. 
+2016-02-05 23:24:55	archsg	Death Metal, when simply Live Metal isn't enough.
+2016-02-05 23:25:06	sudokode	alad: go talk to ohsix in #systemd 
+2016-02-05 23:25:09	Halfwit	!yt Death to forgive is to suffer
+2016-02-05 23:25:11	@phrik	Halfwit: Death - To Forgive Is To Suffer HQ - YouTube: <https://www.youtube.com/watch?v=O8qBfQEvdrk>
+2016-02-05 23:25:21	Inglipz	Halfwit: Cool choice
+2016-02-05 23:25:29	Halfwit	I was going for cool, thanks.
+2016-02-05 23:25:32	-->	vicenteH (~user@85.251.66.15.dyn.user.ono.com) has joined #archlinux
+2016-02-05 23:25:46	archsg	!yt pour some sugar on me
+2016-02-05 23:25:47	@phrik	archsg: Def Leppard - Pour Some Sugar On Me (lyrics) - YouTube: <https://www.youtube.com/watch?v=RaG8faaFUMM>
+2016-02-05 23:25:49	archsg	:)
+2016-02-05 23:25:56	<--	XeonSquared (~ShadowKat@210.1.213.55) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:25:58	xananax	Maybe I explained this in a confusing way, I'm a bit tired. Let me try another time, in case someone can give it a go...I have: Drive 1 SSD EXT3 14G has /boot and /, Drive 2 SATA NTFS 500G has windows, files, and some opt software that is too big to keep on my /. Unity3D is on my 500G SATA, and needs a specific set of permissions to run; Can I, in any way fool Unity3D into thinking those permissions are set? Can I, for example, symlink every file from 
+2016-02-05 23:25:58	xananax	my SATA to my main drive and set permissions on the symlinks there? Can I mount the NTFS drive with specific per-file permissions? Is there anything I can do?
+2016-02-05 23:26:03	progma	!yt never gonna give you up
+2016-02-05 23:26:04	@phrik	progma: Rick Astley - Never Gonna Give You Up - YouTube: <https://www.youtube.com/watch?v=dQw4w9WgXcQ>
+2016-02-05 23:26:26	Inglipz	!yt skeletal five hours
+2016-02-05 23:26:28	alad	sudokode: weird
+2016-02-05 23:26:28	@phrik	Inglipz: Thank Mr. Skeltal (5 hours) - YouTube: <https://www.youtube.com/watch?v=10pqeNBg5d0>
+2016-02-05 23:26:30	-->	Rvnhrt (~Rvnhrt@p2003006D6F4DB501B56FA8636AEECC0D.dip0.t-ipconnect.de) has joined #archlinux
+2016-02-05 23:26:32	xananax	I'd look up the stuff myself, but I can't find any combination of keywords on google that yields good results
+2016-02-05 23:26:36	Halfwit	Alright. I've started a stupidfest.
+2016-02-05 23:26:38	archsg	xananax: Jesus. Symlink *every* file?!
+2016-02-05 23:26:48	progma	well, you are Halfwit after all
+2016-02-05 23:26:56	<--	SgrA (~sgra@unaffiliated/sgra) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:27:05	xananax	archsg, I donno, I want some solution, whatever works. I can symlink every file through a script or something
+2016-02-05 23:27:12	xananax	If it would be worth the effort
+2016-02-05 23:27:21	oats	!symlinks
+2016-02-05 23:27:23	oats	!symlink
+2016-02-05 23:27:25	@phrik	Don't fix problems by symlinking libraries or (or changing the symlink for Python scripts) or else you will break your system. If you decide to do this, anyway, don't complain to us if anything goes wrong.
+2016-02-05 23:27:28	-->	sandlst (~sandlst@h98.133.138.40.static.ip.windstream.net) has joined #archlinux
+2016-02-05 23:27:37	-->	HoNgOuRu (~hongo@r167-57-41-253.dialup.adsl.anteldata.net.uy) has joined #archlinux
+2016-02-05 23:27:37	<--	HoNgOuRu (~hongo@r167-57-41-253.dialup.adsl.anteldata.net.uy) has quit (Client Quit)
+2016-02-05 23:27:39	Halfwit	or (or) or 
+2016-02-05 23:27:39	xananax	I don't want to symlink libraries
+2016-02-05 23:27:55	Earnestea	sudokode: So what does the detection of gravitational waves mean for us?
+2016-02-05 23:27:56	pid1	xananax: make yourself an ext4 partition on the HDD to use
+2016-02-05 23:28:01	<--	donkeybox (~david@c-24-62-35-73.hsd1.ma.comcast.net) has quit (Ping timeout: 245 seconds)
+2016-02-05 23:28:04	oats	xananax: I just wanted to know that phrik's opinion on symlinks was
+2016-02-05 23:28:10	oats	I guess he's not a fan
+2016-02-05 23:28:13	-->	skalra (~user@129.97.124.188) has joined #archlinux
+2016-02-05 23:28:16	oats	phrik: you are a he, right?
+2016-02-05 23:28:16	@phrik	oats: NO, YOU are a he, right?
+2016-02-05 23:28:16	Modok	y
+2016-02-05 23:29:07	xananax	pid1, I see...I suppose it's the easiest option indeed. If I'm going to go ahead and do that anyway....Any problem in having my /var/cache/pacman/pkg being a symlink to another partition?
+2016-02-05 23:29:21	-->	steelcowboy (~steelcowb@2601:642:4202:e880:ba27:ebff:fe36:50f) has joined #archlinux
+2016-02-05 23:29:25	sudokode	Earnestea: means einstein was right
+2016-02-05 23:29:27	archsg	You have to kinda know what you're doing if you intend to go around symlinking things to fix problems. I ran into issues doing that on Slackware to fix nuisances. Only caused problems down the road though.
+2016-02-05 23:29:29	skalra	I sometimes get exception when waking up from hibernate state in arch Linux. It is unable to start X again and bring me to the login shell.
+2016-02-05 23:29:30	pid1	xananax: Why would you do that?
+2016-02-05 23:29:34	Halfwit	Earnestea: I assume there's a few people who are feeling like they sunk much time into alternatives :p
+2016-02-05 23:29:38	Earnestea	sudokode: But we've kind of done physics with that assumptional all a long
+2016-02-05 23:29:43	-->	HoNgOuRu (~hongo@r167-57-41-253.dialup.adsl.anteldata.net.uy) has joined #archlinux
+2016-02-05 23:29:43	<--	acarrico (~acarrico@richmon2-dhcp-62.greenmountainaccess.net) has quit (Ping timeout: 256 seconds)
+2016-02-05 23:29:54	xananax	pid1, because my / is extremely small and I'm always doing cleaning up to update, it's very time consuming
+2016-02-05 23:29:55	-->	yoo (~yoo@port-19414.pppoe.wtnet.de) has joined #archlinux
+2016-02-05 23:29:56	<--	yoo (~yoo@port-19414.pppoe.wtnet.de) has quit (Client Quit)
+2016-02-05 23:29:57	<--	somis (~somis@67.205.112.74) has quit (Ping timeout: 250 seconds)
+2016-02-05 23:29:57	Earnestea	sudokode: For something that hasn't been detected there should is a long wikipedia article on it :P
+2016-02-05 23:30:03	Halfwit	I don't know of any, but they must exist. It's science after all.
+2016-02-05 23:30:07	archsg	skalra: Yeah. That's known to be a problem on *some* Optimus type laptops and with some Intel GPUs.
+2016-02-05 23:30:26	Earnestea	sudokode: should? sure* is
+2016-02-05 23:30:36	<--	gugah (~gustavo@2607:f470:6:5002:6f02:3474:7aa1:332a) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:30:52	skalra	archsg: Yes, I've *Optimus* type laptop, W530 precisely.
+2016-02-05 23:30:54	xananax	Some packages I can't even build for lack of space, and a few times I messed up my partition during an update that terminated abnormaly because I ran out of space midway
+2016-02-05 23:31:09	archsg	skalra: There are different solutions to different situations depending on what's causing it. If it's the Intel GPU for example, might want to look into using some special drivers from AUR. 
+2016-02-05 23:31:11	skalra	archsg: Any solution for it?
+2016-02-05 23:31:17	steelcowboy	Does anyone know how to work with a trackpad on a Bluetooth keyboard? (i.e. add gestures)?
+2016-02-05 23:31:21	<--	edakiri (~kiri@unaffiliated/edakiri) has quit (Quit: Leaving.)
+2016-02-05 23:31:35	sudokode	Earnestea: yeah, but assumptions are terrible
+2016-02-05 23:31:36	archsg	skalra: Oooh. Okay, what you need to determine is whether the Discrete GPU is handling the screen or if it's the integrated GPU handling it.
+2016-02-05 23:31:42	Earnestea	sudokode: Oh of course
+2016-02-05 23:31:49	Earnestea	sudokode: But I was hoping for something more exciting
+2016-02-05 23:31:58	sudokode	Earnestea: well, it could mean solving physics
+2016-02-05 23:31:59	<--	slester (~slester@cpe-76-88-8-120.san.res.rr.com) has quit (Remote host closed the connection)
+2016-02-05 23:32:02	sudokode	but that's just a bonus
+2016-02-05 23:32:08	Earnestea	sudokode: communication via gravitational waves, no more walls to reduce your signal strength!
+2016-02-05 23:32:26	<--	ralpheeee (~ralpheeee@cable-78-34-50-177.netcologne.de) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:32:29	Earnestea	sudokode: Satellites can now relay data through planets
+2016-02-05 23:32:37	skalra	archsg: I'm using bumblebee, so laptop screen is handled by intel graphics card.
+2016-02-05 23:32:38	Halfwit	sudokode: Grand unified theory level solved?
+2016-02-05 23:32:39	sudokode	Earnestea: lol. except you need a couple of insane masses to actually produce them :P
+2016-02-05 23:32:51	sudokode	Earnestea: like two black holes or a black hole and a neutron star
+2016-02-05 23:32:56	Earnestea	sudokode: But would you?  You're not exactly trying to communicate across light years
+2016-02-05 23:32:57	Halfwit	And i thought they had just proved you don't need that much mass 
+2016-02-05 23:33:00	sudokode	insanely massive and spinning around each other
+2016-02-05 23:33:12	sudokode	Earnestea: oh yes, just to generate the waves themselves
+2016-02-05 23:33:13	Earnestea	sudokode: A machine to generate gravitational waves within a 50m radius
+2016-02-05 23:33:13	archsg	skalra: Okay. Are you also using bbswitch and do you have bumblebleed service running at boot?
+2016-02-05 23:33:17	Earnestea	sudokode: :D
+2016-02-05 23:33:21	sudokode	they're not produced in some non-exotic fashion :P
+2016-02-05 23:33:27	skalra	archsg: Yes.
+2016-02-05 23:33:35	Earnestea	sudokode: In this case it was two black holes collapsing into each other
+2016-02-05 23:33:42	sudokode	Earnestea: wait what
+2016-02-05 23:33:45	-->	endre (~endre@end.re) has joined #archlinux
+2016-02-05 23:33:46	sudokode	LIGO announced?
+2016-02-05 23:33:51	<--	mohabaks (~zer0ph@105.231.20.96) has quit (Ping timeout: 250 seconds)
+2016-02-05 23:33:56	<--	augustan (~dat-letha@2a02:810d:ac0:20f8:2ab2:bdff:feac:f01c) has quit (Ping timeout: 240 seconds)
+2016-02-05 23:33:57	Earnestea	sudokode: Still rumor
+2016-02-05 23:33:58	sudokode	when?
+2016-02-05 23:33:59	sudokode	oh
+2016-02-05 23:34:01	-->	SaveTheRobots (~zZz@unaffiliated/savetherobots) has joined #archlinux
+2016-02-05 23:34:01	sudokode	yeah
+2016-02-05 23:34:06	archsg	skalra: Okay. Now did you be sure to uninstall the nvidia-libgl and have ONLY mesa-libgl?
+2016-02-05 23:34:08	sudokode	oh, you're watching pbs space time :P
+2016-02-05 23:34:18	-->	fogobogooo (~fogobogo@unaffiliated/fogobogo) has joined #archlinux
+2016-02-05 23:34:21	-->	ralpheeee (~ralpheeee@cable-78-34-50-177.netcologne.de) has joined #archlinux
+2016-02-05 23:34:22	cptG	sudokode: yeah, I hope support for those USB3 black holes will land in mainline soon :P
+2016-02-05 23:34:24	Earnestea	sudokode: American TV shows have recent space news stuff?
+2016-02-05 23:34:26	Earnestea	sudokode: That's cool
+2016-02-05 23:34:29	Earnestea	sudokode: But no, http://www.sciencemag.org/news/2016/02/woohoo-email-stokes-rumor-gravitational-waves-have-been-spotted
+2016-02-05 23:34:50	sudokode	Earnestea: it's a youtube channel supported by pbs. very nice series on relativity along with some other shit
+2016-02-05 23:34:52	Earnestea	sudokode: It says it should release results on feb 11th in nature
+2016-02-05 23:34:57	sudokode	very technical. you might actually like it
+2016-02-05 23:34:57	<--	Longlius (~longlius@128.169.3.4) has quit (Ping timeout: 245 seconds)
+2016-02-05 23:34:57	<--	syslock (~syslock@80.88.25.139) has quit (Quit: tschüß...)
+2016-02-05 23:34:58	-->	ahtapot (~cc@81.214.44.91) has joined #archlinux
+2016-02-05 23:34:58	Earnestea	sudokode: Oh, link?
+2016-02-05 23:35:02	<--	plitter (~plitter@70.126.189.109.customer.cdi.no) has quit (Quit: WeeChat 1.4)
+2016-02-05 23:35:03	skalra	Nothing `pacman -Q -- nvidia-libgl`
+2016-02-05 23:35:04	skalra	 
+2016-02-05 23:35:04	-->	kadiro (~kadiro@unaffiliated/kadiro) has joined #archlinux
+2016-02-05 23:35:04	<--	nyarlu (~brandon@CPE-120-146-221-115.static.vic.bigpond.net.au) has quit (Quit: nyarlu)
+2016-02-05 23:35:06	sudokode	!yt pbs space time relativity
+2016-02-05 23:35:07	@phrik	sudokode: General Relativity & Curved Spacetime Explained! | Space Time ...: <https://www.youtube.com/watch?v=AwhKZ3fd9JA>
+2016-02-05 23:35:14	Halfwit	That one was decent
+2016-02-05 23:35:18	sudokode	eh, that's probably the last one
+2016-02-05 23:35:35	skalra	archsg: `pacman -Q -- nvidia-libgl` nothing by running that.
+2016-02-05 23:35:47	sudokode	https://www.youtube.com/playlist?list=PLsPUh22kYmNAmjsHke4pd8S9z6m_hVRur
+2016-02-05 23:35:48	@phrik	Title: Relativity - YouTube (at www.youtube.com)
+2016-02-05 23:35:55	-->	slester (~slester@cpe-76-88-8-120.san.res.rr.com) has joined #archlinux
+2016-02-05 23:35:59	skalra	archsg: I've only mes-libgl installed.
+2016-02-05 23:36:29	Halfwit	I don't want to learn all the subtleties of this system, but I want to augment it some. Damnit, will hire sudokode for beer to make.
+2016-02-05 23:36:42	archsg	skalra: So you should have the xf86-video-intel, proprietary NVIDIA driver, and mesa-libgl, bbswitch, bumblebleed service running. One other issue I had with this was when I was using SDDM. I had to switch to lightdm and the problem went away.
+2016-02-05 23:36:57	sudokode	Halfwit: I probably won't be here much longer
+2016-02-05 23:37:06	Halfwit	sudokode: Gettin' drunk?
+2016-02-05 23:37:13	skalra	archsg: I'm not using any login manager.
+2016-02-05 23:37:24	skalra	archsg: I just manually type `startx`.
+2016-02-06 23:48:58	-->	shibari_ (~shibari@49.250.178.212.adsl.dyn.beotel.net) has joined #archlinux
+2016-02-06 23:48:58	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> pacman 5.0 in [core]! http://allanmcrae.com/2016/01/pacman-5-0-released/ <+> old package-query versions are incompatible with pacman 5.0, update it or remove it along with yaourt"
+2016-02-06 23:48:58	--	Topic set by demize on Thu, 04 Feb 2016 20:18:50
+2016-02-06 23:48:59	--	Channel #archlinux: 1613 nicks (2 ops, 0 voices, 1611 normals)
+2016-02-06 23:49:00	--	Channel created on Sun, 15 Feb 2004 06:08:31
+2016-02-06 23:49:00	grawity	vimes: no, just mount the Win10-created ESP on /boot
+2016-02-06 23:49:05	grawity	vimes: assuming you already have Win10
+2016-02-06 23:49:06	sudokode	not necessarily another partition, but they should be separate because the OS touches /boot
+2016-02-06 23:49:09	vimes	yes
+2016-02-06 23:49:12	vimes	errr
+2016-02-06 23:49:15	sudokode	but you don't need a bunch of ESPs
+2016-02-06 23:49:20	vimes	how do I know which one is the win10 esp 
+2016-02-06 23:49:24	grawity	vimes: lsblk -f
+2016-02-06 23:49:26	GaivsIvlivs	the OS really likes touching /boot
+2016-02-06 23:49:35	grawity	er, maybe actually
+2016-02-06 23:49:39	sudokode	GaivsIvlivs: yes but the ESP doesn't have to be a part of /boot :D
+2016-02-06 23:49:48	vimes	oh I know about lsblk, what I dodn't know is how to tell what is boot. 
+2016-02-06 23:49:48	sudokode	just mount it to /boot/EFI/
+2016-02-06 23:50:02	sudokode	!disks
+2016-02-06 23:50:03	@phrik	lsblk -Spo +size
+2016-02-06 23:50:03	GaivsIvlivs	true enough. vimes do you have them on separate drives?
+2016-02-06 23:50:05	grawity	vimes: lsblk -o name,size,fstype,parttype
+2016-02-06 23:50:10	sudokode	find the smallest partition on the proper disk
+2016-02-06 23:50:11	grawity	vimes: look for c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+2016-02-06 23:50:14	sudokode	that's likely the /boot
+2016-02-06 23:50:16	vimes	I have them all on one SSD 
+2016-02-06 23:50:24	grawity	bah, I could've just said `fdisk -l /dev/sda`
+2016-02-06 23:50:31	grawity	which just says "EFI System"
+2016-02-06 23:50:37	sudokode	heh
+2016-02-06 23:50:38	GaivsIvlivs	I've always put them on separate drives, it's easier
+2016-02-06 23:50:41	sudokode	that too!
+2016-02-06 23:51:01	vimes	there is one that is 100MB with the type "EFI System", correct? 
+2016-02-06 23:51:04	sudokode	GaivsIvlivs: on multiple drives, it is easier
+2016-02-06 23:51:11	grawity	vimes: yes
+2016-02-06 23:51:14	vimes	woho!
+2016-02-06 23:51:15	alad	parabola even has patches to "rename Linux -> GNU/Linux"
+2016-02-06 23:51:15	sudokode	on a single drive, having more than one is kinda messy
+2016-02-06 23:51:18	GaivsIvlivs	sudokode wot
+2016-02-06 23:51:25	<--	tmachr (~tmachr@177.104.215.123) has quit (Quit: leaving)
+2016-02-06 23:51:29	shibari_	I'm finally done setting up arch http://i.imgur.com/Z4VO1Rw.png | I just have one question tho, how to permanetly add a fontpath? I couldn't add one specific font(aka it wasn't recognized somehow) so I have to do xset +fp path/to/font on startup, which doesn't do the job every time, so is there way to avoid this(make it permanent) ?
+2016-02-06 23:51:32	alad	amazing use of effort, really
+2016-02-06 23:51:42	sudokode	GaivsIvlivs: if you're using two OS's each on its own drive, then yeah
+2016-02-06 23:51:56	sudokode	but dual booting from a single drive, I'd say a single ESP is cleaner
+2016-02-06 23:52:08	vimes	mount it on /boot or /boot/efi
+2016-02-06 23:52:11	GaivsIvlivs	Das wat I'm saying. I've always kept different OSs on separate drives
+2016-02-06 23:52:15	sudokode	ah
+2016-02-06 23:52:17	grawity	vimes: /boot will be easier
+2016-02-06 23:52:27	alad	shibari_: xinitrc
+2016-02-06 23:57:32	-->	shibari_ (~shibari@49.250.178.212.adsl.dyn.beotel.net) has joined #archlinux
+2016-02-06 23:57:32	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> pacman 5.0 in [core]! http://allanmcrae.com/2016/01/pacman-5-0-released/ <+> old package-query versions are incompatible with pacman 5.0, update it or remove it along with yaourt"
+2016-02-06 23:57:32	--	Topic set by demize on Thu, 04 Feb 2016 20:18:50
+2016-02-06 23:57:33	--	Channel #archlinux: 1613 nicks (2 ops, 0 voices, 1611 normals)
+2016-02-06 23:57:34	--	Channel created on Sun, 15 Feb 2004 06:08:31
+2016-02-06 23:57:50	vimes	so I link to the EFI-boot device of linux or to the windows fle system? 
+2016-02-06 23:57:52	shibari_	sudokode: works like a charm ^_^ thanks again 
+2016-02-06 23:57:57	-->	ozzyofpi (~ozzy@109.77.106.232) has joined #archlinux
+2016-02-06 23:57:59	sudokode	np
+2016-02-06 23:58:37	Chais	grawity: who needs enlightenment if you can have a working arch install?
+2016-02-06 23:58:44	sudokode	archarcharch
+2016-02-06 23:58:53	sudokode	it's all about the goal, not the journey
+2016-02-06 23:58:58	ShapeShifter499	thunar on xfce is giving me a error trying to move a file to the trash  "Unable to find or create trash directory"    This appears to only happen with a sshfs mount. Any ideas how to fix this guys?
+2016-02-06 23:59:06	Halfwit	grawity: EFL is zen
+2016-02-06 23:59:07	Chais	also it *can* lead to enlightenment if that's the DE you opt for ;)
+2016-02-06 23:59:19	Halfwit	^ See, they got it!
+2016-02-06 23:59:35	vimes	see I have one 300 gb for windows, that is windows, and one 100 mb that is efi system. I assume that I just link the 300 gb windows, I'ma do that, it'll ..maybe work.
+2016-02-06 23:59:54	-->	SgrA (~sgra@unaffiliated/sgra) has joined #archlinux
+2016-02-07 00:00:13	Earnestea	alad: Hey you have an "install" config package thing too
+2016-02-07 00:00:23	grawity	vimes: what do you even mean by 'linking'
+2016-02-07 00:00:33	vimes	using that UUID 
+2016-02-07 00:00:39	grawity	what UUID?
+2016-02-07 00:01:00	vimes	the one to the windows main partition, need to copy some example file first, and find it.
+2016-02-07 00:01:06	grawity	what
+2016-02-07 00:01:07	vimes	(talking about bootctl) 
+2016-02-07 00:01:09	<--	faalentijn (~faalentij@86.85.27.87) has quit (Quit: WeeChat 1.4)
+2016-02-07 00:01:19	grawity	what does bootctl have to do with Windows or UUIDs?
+2016-02-07 00:01:29	alad	Earnestea: yep, very useful
+2016-02-07 00:01:45	alad	Earnestea: there's some things I doubt about though, e.g right now I generate locales in the .install file
+2016-02-07 00:01:48	vimes	well it's going to say where windows is, so that I can start it during boot. it's like GRUB, right? 
+2016-02-07 00:01:59	sudokode	vimes: no
+2016-02-07 00:02:02	grawity	vimes: yes but also no
+2016-02-07 00:02:04	<--	nlogex (~filip@dhcp-108-168-15-53.cable.user.start.ca) has quit (Quit: WeeChat 1.3)
+2016-02-07 00:02:08	vimes	woho!
+2016-02-07 00:02:10	-->	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has joined #archlinux
+2016-02-07 00:02:14	grawity	vimes: for one, it's UEFI; the Windows bootloader is just another file on the same ESP
+2016-02-07 00:02:29	-->	kinky (~kinky@p5798CE3C.dip0.t-ipconnect.de) has joined #archlinux
+2016-02-07 00:02:36	grawity	vimes: for another, the Windows bootloader is always at the same place in the ESP, so systemd-boot finds it automatically
+2016-02-07 00:02:36	vimes	soo...I should just not include windows in the bootctl
+2016-02-07 00:02:37	Earnestea	alad: That's fine
+2016-02-07 00:02:42	grawity	it's only Arch you need to tell it about
+2016-02-07 00:02:55	vimes	goodie
+2016-02-07 00:03:09	sudokode	well, you would normally have to add windows to the bootloader menu, but gummiboot can autodetect a windows boot
+2016-02-07 00:03:19	sudokode	it should give you an entry in the menu for it
+2016-02-07 00:03:23	vimes	gummiboot? should I rather use that? 
+2016-02-07 00:03:26	<--	Chais (~Chais@unaffiliated/chais) has quit (Quit: ZNC - http://znc.in)
+2016-02-07 00:03:27	sudokode	(gummiboot and thus sd-boot)
+2016-02-07 00:03:32	sudokode	vimes: no, gummiboot is now sd-boot
+2016-02-07 00:03:35	Earnestea	alad: My /etc/locales file just contains locales, adding a new locale to a file is simple, just blindly append and `sort -u file -o file` to get rid of duplicates
+2016-02-07 00:03:42	vimes	ok, should I rather use sd-boot
+2016-02-07 00:03:44	sudokode	systemd-boot, which is what bootctl is controlling
+2016-02-07 00:03:55	-->	tumbler (~tumbler@unaffiliated/tumbler) has joined #archlinux
+2016-02-07 00:03:57	sudokode	no, you're doing it right
+2016-02-07 00:03:59	vimes	is there like an arch book as a pdf somewhere?
+2016-02-07 00:04:06	GaivsIvlivs	just the wikis
+2016-02-07 00:04:07	sudokode	it would never end
+2016-02-07 00:04:11	grawity	there's no "arch book"
+2016-02-07 00:04:14	sudokode	there aren't enough fucking trees
+2016-02-07 00:04:21	Cirrus_Minor	lol
+2016-02-07 00:04:21	sudokode	in the solar system
+2016-02-07 00:04:24	GaivsIvlivs	also not enough trees fucking
+2016-02-07 00:04:30	sudokode	I agree
+2016-02-07 00:04:43	GaivsIvlivs	arboraphilia

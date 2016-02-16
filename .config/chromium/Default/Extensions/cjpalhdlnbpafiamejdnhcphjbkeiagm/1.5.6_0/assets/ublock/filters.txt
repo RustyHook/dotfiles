@@ -1,0 +1,264 @@
+# Filters optimized for uBlock
+
+# Zerohedge: ref: http://forums.lanik.us/viewtopic.php?f=62&t=17307
+www.zerohedge.com##.similar-box
+
+# https://github.com/chrisaljoudi/uBlock/issues/57
+# https://github.com/chrisaljoudi/uBlock/issues/98
+# New filter class: entity filters, where
+# entity = domain minus public suffix
+# The following filters were taken out of EasyList and given an entity name,
+# which makes them candidates to be injected early in the page.
+# Last updated: 2015-10-15
+google.*###center_col > #\5f Emc
+google.*###center_col > #main > .dfrd > .mnr-c > .c._oc._zs
+google.*###center_col > #res > #topstuff + #search > div > #ires > #rso > #flun
+google.*###center_col > #resultStats + #tads
+google.*###center_col > #resultStats + #tads + #res + #tads
+google.*###center_col > #resultStats + div + #res + #tads
+google.*###center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"]
+google.*###center_col > #taw > #tvcap > .rscontainer
+google.*###center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"]
+google.*###cnt #center_col > #res > #topstuff > .ts
+google.*###cnt #center_col > #taw > #tvcap > .c._oc._Lp
+google.*###main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"]
+google.*###mbEnd[cellspacing="0"][cellpadding="0"]
+google.*###mclip_container:last-child
+google.*###mn #center_col > div > h2.spon:first-child
+google.*###mn #center_col > div > h2.spon:first-child + ol:last-child
+google.*###mn div[style="position:relative"] > #center_col > ._Ak
+google.*###mn div[style="position:relative"] > #center_col > div > ._dPg
+google.*###resultspanel > #topads
+google.*###rhs_block > #mbEnd
+google.*###rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"]
+google.*###rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div
+google.*###rhs_block > script + .c._oc._Ve.rhsvw
+google.*###rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"]
+google.*###ssmiwdiv[jsdisplay]
+google.*###tads + div + .c
+google.*###tads.c
+google.*###tadsb.c
+google.*###tadsto.c
+google.*###topstuff > #tads
+google.*##.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-
+google.*##.GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5
+google.*##.GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5
+google.*##.GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5
+google.*##.GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4
+google.*##.GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5
+google.*##.GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB
+google.*##.ch[onclick="ga(this,event)"]
+google.*##.commercial-unit-desktop-rhs
+google.*##.commercial-unit-desktop-top
+google.*##.commercial-unit-mobile-top
+google.*##.lads[width="100%"][style="background:#FFF8DD"]
+google.*##.mod > ._jH + .rscontainer
+google.*##.mw > #rcnt > #center_col > #taw > #tvcap > .c
+google.*##.mw > #rcnt > #center_col > #taw > .c
+google.*##.ra[align="left"][width="30%"]
+google.*##.ra[align="right"][width="30%"]
+google.*##.ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"]
+google.*##.rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"]
+google.*##.rscontainer > .ellip
+
+# https://github.com/chrisaljoudi/uBlock/issues/381
+google.*###sqh
+
+# For when javascript is disabled
+google.*###center_col > #tads
+
+# https://github.com/gorhill/uBlock/issues/621
+search.yahoo.com###main > div > style + ol
+
+# http://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-25#post-2461804
+# Specific cosmetic filters for Youtube home page
+www.youtube.com##.masthead-ad-control
+www.youtube.com##.ad-div
+
+www.thesimsresource.com##.ad-topleader
+# http://www.reddit.com/r/chromeos/comments/2q4q3s/im_not_sure_if_this_belongs_here_but_adblock/
+# Following needed for http://putlocker.is/
+||vprmnwbskk.com^$popup
+||fmdwbsfxf0.com^$popup
+# This needs to be in EasyList Germany
+# url = http://www.click-learn.de/ (right vertical banner)
+||click-learn.de^*_155x420.swf
+
+# https://github.com/chrisaljoudi/uBlock/issues/510#issuecomment-71050211
+||racksauce.com^$domain=promptfile.com
+
+# https://github.com/chrisaljoudi/uBlock/issues/510#issuecomment-71078475
+|http://$popup,domain=filenuke.com|sharesix.com
+||filenuke.com/a/script.js$script
+||mwem.filenuke.com/*/*$script
+||rrnq.filenuke.com/*/*$script
+||szbek.filenuke.com/*/*$script
+||wwegr.filenuke.com/*/*$script
+||sharesix.com/a/script.js$script
+||hhg.sharesix.com/*/*$script
+||jha.sharesix.com/*/*$script
+||lsg.sharesix.com/*/*$script
+||nvy.sharesix.com/*/*$script
+
+# https://github.com/chrisaljoudi/uBlock/issues/618
+deviantart.com##.dp-ad-chrome.dp-ad-visible
+
+# http://support.getadblock.com/discussions/problems/73955-specific-web-site-causes-thousands-infinite-blocks-locks-up-chrome
+||www.notempire.com/js/gridview$script
+
+# https://github.com/chrisaljoudi/uBlock/issues/1013
+||mac-system-alert.com^
+
+# https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/720518/
+mail.yahoo.com###inboxcontainer .list-view-items-page > .ml-bg:not(.list-view-item-container)
+
+# https://adblockplus.org/forum/viewtopic.php?f=2&t=38703
+# http://www.christiantoday.com/article/huawei.nexus.release.news.could.be.googles.ticket.back.into.china/58786.htm
+#   `important` must be used as there is one EasyList exception preventing
+#   complete block.
+||username1.link^$important
+
+# https://github.com/gorhill/uBlock/issues/641
+||c.speedtest.net/javascript/speedtest-main.js$important,inline-script,script,image,domain=c.speedtest.net
+speedtest.net###swiffycontainer canvas
+
+# https://github.com/gorhill/uBlock/issues/651
+ink361.com##.getridofAdsBlock[href^="javascript:"]
+
+# https://www.reddit.com/r/techsupport/comments/3kyd0m/sponsored_content_ads_that_only_show_up_with/
+explosm.net##.inner-wrap > .row > .columns.large-4.medium-12.small-12
+explosm.net##.fram + div[class]
+
+# http://www.extremetech.com/mobile/214358-ad-blocking-for-the-masses-part-two-adblock-browser
+# "anyone else trying it on ET find that one ziffdavis.com ad bypasses ublock0 even though it's in the default lists for block"
+||inspiringsweater.xyz^
+||deservedlimp.xyz^
+
+# https://www.reddit.com/r/facebook/comments/3ld5gn/ive_discovered_that_i_cant_access_facebook/
+# Until all users have latest EasyList
+@@RPNcr3s-aD2.js$script,domain=facebook.com
+
+# https://github.com/gorhill/uBlock/issues/275
+jeu.info###page [class^="banniere-"]
+||jeu.info^$inline-script
+
+# https://github.com/gorhill/uBlock/issues/759
+# Until fixed in EasyPrivacy
+@@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/quant.js$script,first-party
+@@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/vquant.js$script,first-party
+
+# http://arstechnica.com/civis/viewtopic.php?f=3&t=1296357
+arstechnica.com###lg-pushdown
+
+# This prevents spurious redirection, but breaks comments
+||www.washingtonpost.com/*/twp-global.js$script,first-party
+
+# https://adblockplus.org/forum/viewtopic.php?f=2&t=26700&start=120#p141228
+||www.valuewalk.com/wp-content/plugins/adblade-publisher-tools$script,first-party
+www.valuewalk.com##.widgetad
+www.valuewalk.com###sidebar > div[class]:not([id])
+www.valuewalk.com##article > div > headr
+
+# https://github.com/gorhill/uBlock/issues/923#issuecomment-154903084
+investopedia.com##.pg-wrapper > div:not(#Nav):not(.nav-space):not(.subnav-space):not(#Header):not(#Content):not(#Footer):not(.region-content)
+
+# Useful inline script tag filters until filter list maintainers start to use
+# it in their respective filter lists
+arstechnica.com##script:contains(ars.READY.push)
+aussenwirtschaftslupe.de,autozeitung.de,brieffreunde.de,donnerwetter.de,formel1.de,fremdwort.de,helles-koepfchen.de,inside-handy.de,motorsport-total.com,moviejones.de,news.de,rechtslupe.de,wintotal.de##script:contains(window.tisoomi)
+bild.de##script:contains(/^\s*de.bild.cmsKonfig/)
+bild.de##script:contains(Javascript)
+commentcamarche.net,foot01.com,metronews.fr##script:contains(/[Ll]igatus/)
+dayt.se##script:contains(adblock.php)
+dpstream.net,jeux-porno.net##script:contains(/^\s*?var\s+?uniqueParam\s*?=/)
+finanzen.ch##script:contains(/^\s*function\s+UABPInject/)
+getvids.de,podcast.de,sommerhaus.de,spielespielen24.de##script:contains(/^\s*function\s+gS/)
+jav4.me##script:contains(adblock.htm)
+kino-dom.org##script:contains(my_abadiv)
+layer13.net##script:contains(adBlockDetected)
+linternaute.com##script:contains(/^\s*var\s+Asl=/)
+opensubtitles.org##script:contains(defaultCheckForAdBlockExistance)
+pornfun.com##script:contains(canRunAds)
+sueddeutsche.de##script:contains(BlockAdBlock)
+vg.no##script:contains(/^\s*?window\.__AB__/)
+voetbalzone.nl##script:contains(/^\s*?var\s+?init_ads/)
+
+# uabInject-related ads
+20min.ch#@#.wingadblock
+spiegel.de#@#.wrapad
+
+# https://github.com/gorhill/uBlock/issues/1044#issuecomment-163725136
+||adswithsalt.com/*/ad-loading.pic$image,redirect=2x2-transparent.png
+||adternal.com/*/ad-loading.*$image,redirect=2x2-transparent.png
+||de/*/ad_bomb/*$image,redirect=2x2-transparent.png
+||tisoomitech.com/*/ad-image.png$image,redirect=2x2-transparent.png
+
+# https://adblockplus.org/forum/viewtopic.php?f=2&t=26700
+segmentnext.com###sidebar > div[class] > div[class] > div[class]
+segmentnext.com###sidebar > div[class] > div[class] > span[class]
+segmentnext.com###content > div > div[class] > div[class] > span[class]
+segmentnext.com###content > div > div[class] > div[class] > div[class]
+
+# http://forum.palemoon.org/viewtopic.php?f=46&t=10271#p71697
+@@||cdn.windows7themes.net/wp-content/advert.js$script,first-party
+
+# Popunders
+
+# https://github.com/gorhill/uBlock/issues/991
+# New `popunder` filter option to explicitly block popunders.
+# Older version of uBO will discard this unknown filter option -- so it's safe
+# to add it here now.
+|http://$popunder,third-party,domain=xhamster.com
+# https://github.com/gorhill/uBlock/issues/1173
+||exoclick.com^$popunder
+# https://github.com/gorhill/uBlock/issues/1053
+||zinturax.com^$document,popunder,script
+# https://github.com/gorhill/uBlock/issues/995
+||trafficstars.com^$document,popunder
+# https://forums.lanik.us/viewtopic.php?f=62&t=25212&start=15
+||branchroughlend.info^$popunder,popup
+||market-buster.com^$popunder,popup
+||clkfeed.com^$popunder,popup
+
+# https://forums.lanik.us/viewtopic.php?f=62&t=27003
+www.opensubtitles.org##div[itemscope] > fieldset
+www.opensubtitles.org##.content > a[class]:not([id])
+www.opensubtitles.org##fieldset.intro:not([style])
+
+# https://skystreaming.net/canali/sky/guarda-sky-sport-1-in-streaming-live
+skystreaming.net##script:contains(abisuq)
+@@||skystreaming.net^$generichide
+skystreaming.net###fanback + style + div[id]
+
+# https://github.com/gorhill/uBlock/issues/1049
+||d1zatounuylvwg.cloudfront.net/abw.js$script,third-party
+
+# https://github.com/gorhill/uBlock/issues/1079
+# These are just used by obnoxious click-bait ads with obfuscated links -- they
+# appear as 1st-party links but redirect to 3rd-party sites.
+||c8factor.com^
+||k5zoom.com^
+
+# https://github.com/gorhill/uBlock/issues/1100
+# AdDefend
+1erforum.de,20min.ch,abendzeitung-muenchen.de,allgemeine-zeitung.de,arcor.de,ariva.de,auto-motor-und-sport.de,autoextrem.de,boerse-online.de,buerstaedter-zeitung.de,computerbild.de,comunio.de,echo-online.de,fanfiktion.de,fem.com,finanzen.net,focus.de,gamestar.de,gelnhaeuser-tageblatt.de,general-anzeiger-bonn.de,giessener-anzeiger.de,hochheimer-zeitung.de,hofheimer-zeitung.de,kabeleins.de,kreis-anzeiger.de,lampertheimer-zeitung.de,lauterbacher-anzeiger.de,lpgforum.de,lustich.de,main-spitze.de,motorradonline.de,notebookcheck.net,oberhessische-zeitung.de,pcwelt.de,prosieben.de,prosiebenmaxx.de,rhein-main-presse.de,rp-online.de,runnersworld.de,sat1.de,sat1gold.de,serienjunkies.de,sixx.de,spiegel.de,spox.com,shz.de,teccentral.de,the-voice-of-germany.de,transfermarkt.de,tvspielfilm.de,tvtoday.de,usinger-anzeiger.de,webfail.com,wetter.com,wetteronline.at,wetteronline.de,wiesbadener-kurier.de,wiesbadener-tagblatt.de,wn.de,wormser-zeitung.de##script:inject(uabinject-defuser.js)
+
+# Yavli ads
+activistpost.com,alfonzorachel.com,aplus.com,breathecast.com,bulletsfirst.net,clashdaily.com,comicallyincorrect.com,conservativebyte.com,cowboybyte.com,dailysurge.com,dccrimestories.com,drhotze.com,explosm.net,genfringe.com,girlsjustwannahaveguns.com,joeforamerica.com,latinpost.com,mensfitness.com,minutemennews.com,mobilelikez.com,muscleandfitness.com,naturalblaze.com,oddee.com,okmagazine.com,patriotoutdoornews.com,pitgrit.com,radaronline.com,redmaryland.com,segmentnext.com,shark-tank.com,theblacksphere.net,thegatewaypundit.com,themattwalshblog.com,thepoke.co.uk,unilad.co.uk,valuewalk.com,vcpost.com,victoriajackson.com,viralnova.com##script:inject(yavli-defuser.js)
+
+# https://github.com/gorhill/uBlock/issues/1094
+extremetube.com,pornhub.com,primewire.*,redtube.com,spankwire.com,tube8.com,tube8.fr,tube8.es,youporn.com,youporngay.com##script:inject(pornhub-popup-defuser.js)
+
+# https://adblockplus.org/forum/viewtopic.php?f=2&t=43192
+# Users should not have to punch holes in their blockers if it can be avoided.
+*/fuckadblock-$script,redirect=fuckadblock.js-3.2.0
+*/fuckadblock.$script,redirect=fuckadblock.js-3.2.0
+
+# https://github.com/gorhill/uBlock/issues/1136
+||dailymotion.com/ac/video/$image,first-party,redirect=2x2-transparent.png
+
+# https://news.ycombinator.com/item?id=10814913
+forbes.com##script:inject(forbes-defuser.js)
+
+# https://forums.lanik.us/viewtopic.php?f=62&t=25212&start=15
+animeuploads.com,cizgifilmlerizle.com##script:inject(impspcabe-defuser.js)

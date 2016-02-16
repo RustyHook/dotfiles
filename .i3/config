@@ -12,11 +12,11 @@ force_focus_wrapping yes
 focus_follows_mouse no
 
 # app binds:
-bindsym $mod+Return exec terminology
+bindsym $mod+Return exec urxvt
 bindsym $mod+d exec --no-startup-id dmenu_run
 #bindsym $mod+x exec --no-startup-id 
 #bindsym $mod+z exec --no-startup-id passmenu -p "copy:" -font "Share 10" -bw "3"
-bindsym Control+Mod1+Delete exec $TERMINAL -t htop -e htop
+bindsym Control+Mod1+Delete exec urxvt -t htop -e htop
 bindsym $mod+Print exec --no-startup-id maim -d 3 ~/images/screenshots/$(date +%F-%T).png
 bindsym $mod+Shift+Print exec --no-startup-id maim -s ~/images/screenshots/$(date +%F-%T).png
 #bindsym --release $mod+F1 exec --no-startup-id 
@@ -41,15 +41,15 @@ exec --no-startup-id xcompmgr
 exec --no-startup-id nitrogen --restore
 
 #basic apps
-exec --no-startup-id urxvt -e mocp
-exec --no-startup-id chromium
-exec --no-startup-id terminology -e htop
-exec --no-startup-id xterm -e ranger
+#exec --no-startup-id terminology -e mocp
+#exec --no-startup-id chromium
+#exec --no-startup-id urxvt -e htop
+#exec --no-startup-id xterm -e ranger
 #exec i3-msg workspace 3:web
 
 # assign apps:
-assign [class="URxvt"] 5:music
-assign [class="terminology"] 1:term
+assign [class="URxvt"] 1:term
+assign [class="terminology"] 5:music
 assign [class="XTerm"] 4:fma
 assign [class="Viber"] 3:IM
 assign [instance="vlc"] 6:media
@@ -60,7 +60,7 @@ assign [class="dwb"] 2:www
 
 # config apps:
 #for_window [instance="Navigator" class="Firefox|Aurora"] border none
-for_window [class="guake"] floating enable
+for_window [class="Guake!"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="chromium" window_role="browser"] border none
 for_window [class="chromium" window_role="pop-up"] floating enable
@@ -192,6 +192,8 @@ mode "i3wm" {
 
 # i3bar options:
 
+set $transparent #00000000
+
 bar {
 	mode dock
 	position top
@@ -199,15 +201,15 @@ bar {
 	font -xos4-terminusicons2-medium-r-normal--12-120-72-72-c-60-iso8859-1
     workspace_buttons yes
     separator_symbol " "
-	 status_command ~/bin/conky-i3bar
+	status_command ~/bin/conky-i3bar -t 
     tray_output none
     colors {
-      background #000000
-      statusline #605c5a
-      focused_workspace #000000 #000000 #b72f62
-      active_workspace #5f5f5f #000000 #000000
-      inactive_workspace #000000 #000000 #5f5f5f
-      urgent_workspace #2e3436 #9a878f
+      background #101010 
+      statusline #807878
+      focused_workspace #101010 #101010 #9FBC00
+      active_workspace #807878 #101010 #101010
+      inactive_workspace #101010 #101010 #807878
+      urgent_workspace #005f5f #005f5f #9FBC00
 	}
 }
 #^^^ #000000 was #101010

@@ -1,0 +1,65 @@
+2016-02-05 22:55:29		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-02-05 22:55:38		irc: server freenode added
+2016-02-06 23:48:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-02-06 23:56:39		fifo: removing old fifo pipe "/home/shibari/.weechat/weechat_fifo_11018"
+2016-02-06 23:56:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-02-07 19:18:42		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-02-11 17:54:17		fifo: removing old fifo pipe "/home/shibari/.weechat/weechat_fifo_19621"
+2016-02-11 17:54:18		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-02-11 18:40:07		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-02-11 18:41:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-02-11 19:06:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-02-11 19:06:16	=!=	Error: unknown command "/dsa" (type /help for help)
+2016-02-11 19:06:16	=!=	You can not write text in this buffer
+2016-02-11 19:06:16	=!=	You can not write text in this buffer
+2016-02-11 19:06:19	=!=	You can not write text in this buffer
+2016-02-11 19:37:05		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2016-02-12 19:23:16		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-02-12 19:23:36		irc: server spotchat added
+2016-02-15 00:04:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-02-15 01:58:39		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-02-15 02:00:27	=!=	Error: WeeChat main buffer can't be closed
+2016-02-15 02:03:20	=!=	irc: unable to add temporary server "chat.blackcatz.org" because the addition of temporary servers with command /connect is currently disabled
+2016-02-15 02:03:20	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-02-15 02:03:33		irc: server blackcatz added
+2016-02-15 02:04:07	=!=	irc: server "blackcatz" already exists, can't add it!
+2016-02-15 02:04:15		irc: server blackcatz has been deleted
+2016-02-15 02:04:20		irc: server blackcatz added
+2016-02-15 02:04:36		irc: server blackcatz has been deleted
+2016-02-15 02:04:40	=!=	Error with command "/server help" (help on command: /help server)
+2016-02-15 02:04:42		[irc]  /server  list|listfull [<server>]
+2016-02-15 02:04:42		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-02-15 02:04:42		                copy|rename <server> <new_name>
+2016-02-15 02:04:42		                reorder <server> [<server>...]
+2016-02-15 02:04:42		                del|keep <server>
+2016-02-15 02:04:42		                deloutq|jump|raw
+2016-02-15 02:04:42		list, add or remove IRC servers
+2016-02-15 02:04:42		    list: list servers (without argument, this list is displayed)
+2016-02-15 02:04:42		listfull: list servers with detailed info for each server
+2016-02-15 02:04:42		     add: add a new server
+2016-02-15 02:04:42		  server: server name, for internal and display use
+2016-02-15 02:04:42		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-02-15 02:04:42		    temp: add a temporary server (not saved)
+2016-02-15 02:04:42		  option: set option for server (for boolean option, value can be omitted)
+2016-02-15 02:04:42		nooption: set boolean option to 'off' (for example: -nossl)
+2016-02-15 02:04:42		    copy: duplicate a server
+2016-02-15 02:04:42		  rename: rename a server
+2016-02-15 02:04:42		 reorder: reorder list of servers
+2016-02-15 02:04:42		    keep: keep server in config file (for temporary servers only)
+2016-02-15 02:04:42		     del: delete a server
+2016-02-15 02:04:42		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-02-15 02:04:42		    jump: jump to server buffer
+2016-02-15 02:04:42		     raw: open buffer with raw IRC data
+2016-02-15 02:04:42		Examples:
+2016-02-15 02:04:42		  /server listfull
+2016-02-15 02:04:42		  /server add freenode chat.freenode.net
+2016-02-15 02:04:42		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-02-15 02:04:42		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-02-15 02:04:42		  /server copy freenode freenode-test
+2016-02-15 02:04:42		  /server rename freenode-test freenode2
+2016-02-15 02:04:42		  /server reorder freenode2 freenode
+2016-02-15 02:04:42		  /server del freenode
+2016-02-15 02:04:42		  /server deloutq
+2016-02-15 02:04:55		irc: server blackcatz added
+2016-02-15 02:05:09		irc: server blackcatz has been deleted
+2016-02-16 17:14:16		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer

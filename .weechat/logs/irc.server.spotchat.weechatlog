@@ -1,0 +1,306 @@
+2016-02-12 19:23:41	--	irc: connecting to server irc.spotchat.org/6667...
+2016-02-12 19:23:41	--	irc: connected to irc.spotchat.org/6667 (67.230.170.10)
+2016-02-12 19:23:41	--	lamia.ca.SpotChat.org: *** Looking up your hostname...
+2016-02-12 19:23:42	--	lamia.ca.SpotChat.org: *** Found your hostname (92.79.148.91.adsl.dyn.beotel.net)
+2016-02-12 19:23:43	--	lamia.ca.SpotChat.org: Welcome to SpotChat!
+2016-02-12 19:23:43	--	Welcome to the SpotChat IRC Network shibari!shibari@92.79.148.91.adsl.dyn.beotel.net
+2016-02-12 19:23:43	--	Your host is lamia.ca.SpotChat.org, running version InspIRCd-2.0
+2016-02-12 19:23:43	--	This server was created 03:13:01 May 10 2015
+2016-02-12 19:23:43	--	lamia.ca.SpotChat.org InspIRCd-2.0 BHIRSWcdghikorswx ACIJKMNOPQRSTYabceghiklmnopqrstvz IJYabeghkloqv
+2016-02-12 19:23:43	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibeg,k,Jl,ACKMNOPQRSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ACNOQRSTUcmz FNC INVEX=I KICKLEN=255 :are supported by this server
+2016-02-12 19:23:43	--	MAP MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST :are supported by this server
+2016-02-12 19:23:43	--	SSL=67.230.170.10:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2016-02-12 19:23:43	--	198AAAWOM :your unique ID
+2016-02-12 19:23:43	--	lamia.ca.SpotChat.org message of the day
+2016-02-12 19:23:43	--	-               _____             __       __          __
+2016-02-12 19:23:43	--	-              / ___/____  ____  / /______/ /_  ____ _/ /_
+2016-02-12 19:23:43	--	-              \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/
+2016-02-12 19:23:43	--	-             ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_
+2016-02-12 19:23:43	--	-            /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/
+2016-02-12 19:23:43	--	-                /__/
+2016-02-12 19:23:43	--	-                     http://spotchat.org/imprint/
+2016-02-12 19:23:43	--	-                     http://spotchat.org/servers/
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	-                       RULES (FOR THOSE WITHOUT COMMON SENSE)
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	- : On connecting to this Network you are agreeing to be scanned for open
+2016-02-12 19:23:43	--	-      Proxies. Please disregard any messages from Monitoring or Security
+2016-02-12 19:23:43	--	-      software about this matter, it helps us keep our network a safe place.
+2016-02-12 19:23:43	--	- : Bots are allowed if they cause no harm to other Users on this Network or
+2016-02-12 19:23:43	--	-      annoy them in any way. Bots disturbing the normal flow of this Network
+2016-02-12 19:23:43	--	-      are not allowed.
+2016-02-12 19:23:43	--	- : Bots are to be marked with the usermode +B ( /MODE nick +B )
+2016-02-12 19:23:43	--	- : 3 connections per IP are allowed on this IRC Network. Exceptions can be
+2016-02-12 19:23:43	--	-      arranged in consultation with the Operators.
+2016-02-12 19:23:43	--	- : NOT allowed are: warez, XDCC, dissemination of pornographic content,
+2016-02-12 19:23:43	--	-      overexposure of violence, trolling and
+2016-02-12 19:23:43	--	-      flooding/spamming.
+2016-02-12 19:23:43	--	- : Listen to the IRC Operators and respect their decisions. Decisions made
+2016-02-12 19:23:43	--	-      by the IRC Operators are final.
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- The Operators of this Network reserve the right to block Channels or Users
+2016-02-12 19:23:43	--	- who breach these rules and to change the above rules without prior notice.
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- Anyone who operates computer sabotage against us make themselves liable
+2016-02-12 19:23:43	--	- to prosecution under Section 303b of the German Criminal Code and we will
+2016-02-12 19:23:43	--	- press charges against them.
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	-                                 EXTRA SERVICES
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	-   ChanServ --- Allows normal Users to maintain control over their Channel.
+2016-02-12 19:23:43	--	-   MemoServ --- Allows sending memos to offline Users.
+2016-02-12 19:23:43	--	-   BotServ --- Custom Channel bots as replacement to ChanServ (Ask for one
+2016-02-12 19:23:43	--	-                  in #SpotChat ).
+2016-02-12 19:23:43	--	-   NickServ --- Allows Users to register their Nicks to stop other people
+2016-02-12 19:23:43	--	-                   from taking them.
+2016-02-12 19:23:43	--	-   HostServ --- A Service designed to give you a cool host name!
+2016-02-12 19:23:43	--	-                   If you use a domain name, you must provide proof that you
+2016-02-12 19:23:43	--	-                   own that domain. This is to prevent impersonation.
+2016-02-12 19:23:43	--	-                   To get started please use the following command:
+2016-02-12 19:23:43	--	-                         /MSG HostServ HELP REQUEST
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- *** For more information, visit: http://spotchat.org/howto/
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	-                       SOME IMPORTANT COMMANDS (NO SHORTCUTS)
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	- vHosts:
+2016-02-12 19:23:43	--	-       /MSG HostServ HELP REQUEST
+2016-02-12 19:23:43	--	- Nicks:
+2016-02-12 19:23:43	--	-       /MSG NickServ HELP REGISTER
+2016-02-12 19:23:43	--	-       /MSG NickServ HELP SET
+2016-02-12 19:23:43	--	- Channels:
+2016-02-12 19:23:43	--	-       /MSG ChanServ HELP REGISTER
+2016-02-12 19:23:43	--	-       /MSG ChanServ HELP FLAGS
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	-            SPOTCHAT ADMINISTRATION: See http://spotchat.org/staff/
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	- In case a User is masquerading as an IRC-Op and no Operator can be found
+2016-02-12 19:23:43	--	-    please immediately contact Network management!
+2016-02-12 19:23:43	--	-
+2016-02-12 19:23:43	--	- Contact Us via (in order of fastest service to slowest):
+2016-02-12 19:23:43	--	- 1) The #SpotChat Channel
+2016-02-12 19:23:43	--	- 2) Email us at opers@spotchat.org
+2016-02-12 19:23:43	--	- 3) http://spotchat.org/contact/
+2016-02-12 19:23:43	--	- =============================================================================
+2016-02-12 19:23:43	--	End of message of the day.
+2016-02-12 19:23:43	--	There are 6 users and 535 invisible on 6 servers
+2016-02-12 19:23:43	--	4 :operator(s) online
+2016-02-12 19:23:43	--	91 :channels formed
+2016-02-12 19:23:43	--	I have 130 clients and 1 servers
+2016-02-12 19:23:43	--	Current Local Users: 130  Max: 138
+2016-02-12 19:23:43	--	Current Global Users: 541  Max: 606
+2016-02-12 19:23:43	--	SpotChat-qotrdh.dyn.beotel.net :is now your displayed host
+2016-02-12 19:23:43	--	User mode [+ix] by shibari
+2016-02-12 19:23:43	--	InfoServ (InfoServ@services.SpotChat.org): *** Message(s) of the Day ***
+2016-02-12 19:23:43	--	InfoServ (InfoServ@services.SpotChat.org): [SASL Authentication mechanisms] Notice from r00t, posted 01:24 on 03/05/2015:
+2016-02-12 19:23:43	--	InfoServ (InfoServ@services.SpotChat.org): DH-BLOWFISH and DH-AES is no longer supported. If you are using any of these, please switch to either PLAIN or ECDSA-NIST256p-CHALLENGE
+2016-02-12 19:23:43	--	InfoServ (InfoServ@services.SpotChat.org): *** End of Message(s) of the Day ***
+2016-02-12 19:23:43	--	NickServ (NickServ@services.SpotChat.org): Welcome to SpotChat, shibari! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+2016-02-15 00:06:06	--	irc: connecting to server irc.spotchat.org/6667...
+2016-02-15 00:06:06	--	irc: connected to irc.spotchat.org/6667 (109.234.106.53)
+2016-02-15 00:06:06	--	harpy.de.SpotChat.org: *** Looking up your hostname...
+2016-02-15 00:06:06	--	harpy.de.SpotChat.org: *** Found your hostname (92.79.148.91.adsl.dyn.beotel.net)
+2016-02-15 00:06:07	--	harpy.de.SpotChat.org: Welcome to SpotChat!
+2016-02-15 00:06:07	--	Welcome to the SpotChat IRC Network shibari!shibari@92.79.148.91.adsl.dyn.beotel.net
+2016-02-15 00:06:07	--	Your host is harpy.de.SpotChat.org, running version InspIRCd-2.0
+2016-02-15 00:06:07	--	This server was created 13:27:39 Feb  7 2016
+2016-02-15 00:06:07	--	harpy.de.SpotChat.org InspIRCd-2.0 BHIRSWcdghikorswx ACIJKMNOPQRSTYabceghiklmnopqrstvz IJYabeghkloqv
+2016-02-15 00:06:07	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibeg,k,Jl,ACKMNOPQRSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ACNOQRSTUcmz FNC INVEX=I KICKLEN=255 :are supported by this server
+2016-02-15 00:06:07	--	MAP MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST :are supported by this server
+2016-02-15 00:06:07	--	SSL=109.234.106.53:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2016-02-15 00:06:07	--	655AAAZJS :your unique ID
+2016-02-15 00:06:07	--	harpy.de.SpotChat.org message of the day
+2016-02-15 00:06:07	--	-               _____             __       __          __
+2016-02-15 00:06:07	--	-              / ___/____  ____  / /______/ /_  ____ _/ /_
+2016-02-15 00:06:07	--	-              \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/
+2016-02-15 00:06:07	--	-             ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_
+2016-02-15 00:06:07	--	-            /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/
+2016-02-15 00:06:07	--	-                /__/
+2016-02-15 00:06:07	--	-                     http://spotchat.org/imprint/
+2016-02-15 00:06:07	--	-                     http://spotchat.org/servers/
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	-                       RULES (FOR THOSE WITHOUT COMMON SENSE)
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	- : On connecting to this Network you are agreeing to be scanned for open
+2016-02-15 00:06:07	--	-      Proxies. Please disregard any messages from Monitoring or Security
+2016-02-15 00:06:07	--	-      software about this matter, it helps us keep our network a safe place.
+2016-02-15 00:06:07	--	- : Bots are allowed if they cause no harm to other Users on this Network or
+2016-02-15 00:06:07	--	-      annoy them in any way. Bots disturbing the normal flow of this Network
+2016-02-15 00:06:07	--	-      are not allowed.
+2016-02-15 00:06:07	--	- : Bots are to be marked with the usermode +B ( /MODE nick +B )
+2016-02-15 00:06:07	--	- : 3 connections per IP are allowed on this IRC Network. Exceptions can be
+2016-02-15 00:06:07	--	-      arranged in consultation with the Operators.
+2016-02-15 00:06:07	--	- : NOT allowed are: warez, XDCC, dissemination of pornographic content,
+2016-02-15 00:06:07	--	-      overexposure of violence, trolling and
+2016-02-15 00:06:07	--	-      flooding/spamming.
+2016-02-15 00:06:07	--	- : Listen to the IRC Operators and respect their decisions. Decisions made
+2016-02-15 00:06:07	--	-      by the IRC Operators are final.
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- The Operators of this Network reserve the right to block Channels or Users
+2016-02-15 00:06:07	--	- who breach these rules and to change the above rules without prior notice.
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- Anyone who operates computer sabotage against us make themselves liable
+2016-02-15 00:06:07	--	- to prosecution under Section 303b of the German Criminal Code and we will
+2016-02-15 00:06:07	--	- press charges against them.
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	-                                 EXTRA SERVICES
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	-   ChanServ --- Allows normal Users to maintain control over their Channel.
+2016-02-15 00:06:07	--	-   MemoServ --- Allows sending memos to offline Users.
+2016-02-15 00:06:07	--	-   BotServ --- Custom Channel bots as replacement to ChanServ (Ask for one
+2016-02-15 00:06:07	--	-                  in #SpotChat ).
+2016-02-15 00:06:07	--	-   NickServ --- Allows Users to register their Nicks to stop other people
+2016-02-15 00:06:07	--	-                   from taking them.
+2016-02-15 00:06:07	--	-   HostServ --- A Service designed to give you a cool host name!
+2016-02-15 00:06:07	--	-                   If you use a domain name, you must provide proof that you
+2016-02-15 00:06:07	--	-                   own that domain. This is to prevent impersonation.
+2016-02-15 00:06:07	--	-                   To get started please use the following command:
+2016-02-15 00:06:07	--	-                         /MSG HostServ HELP REQUEST
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- *** For more information, visit: http://spotchat.org/howto/
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	-                       SOME IMPORTANT COMMANDS (NO SHORTCUTS)
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	- vHosts:
+2016-02-15 00:06:07	--	-       /MSG HostServ HELP REQUEST
+2016-02-15 00:06:07	--	- Nicks:
+2016-02-15 00:06:07	--	-       /MSG NickServ HELP REGISTER
+2016-02-15 00:06:07	--	-       /MSG NickServ HELP SET
+2016-02-15 00:06:07	--	- Channels:
+2016-02-15 00:06:07	--	-       /MSG ChanServ HELP REGISTER
+2016-02-15 00:06:07	--	-       /MSG ChanServ HELP FLAGS
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	-            SPOTCHAT ADMINISTRATION: See http://spotchat.org/staff/
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	- In case a User is masquerading as an IRC-Op and no Operator can be found
+2016-02-15 00:06:07	--	-    please immediately contact Network management!
+2016-02-15 00:06:07	--	-
+2016-02-15 00:06:07	--	- Contact Us via (in order of fastest service to slowest):
+2016-02-15 00:06:07	--	- 1) The #SpotChat Channel
+2016-02-15 00:06:07	--	- 2) Email us at opers@spotchat.org
+2016-02-15 00:06:07	--	- 3) http://spotchat.org/contact/
+2016-02-15 00:06:07	--	- =============================================================================
+2016-02-15 00:06:07	--	End of message of the day.
+2016-02-15 00:06:07	--	There are 6 users and 526 invisible on 6 servers
+2016-02-15 00:06:07	--	4 :operator(s) online
+2016-02-15 00:06:07	--	91 :channels formed
+2016-02-15 00:06:07	--	I have 217 clients and 1 servers
+2016-02-15 00:06:07	--	Current Local Users: 217  Max: 229
+2016-02-15 00:06:07	--	Current Global Users: 532  Max: 583
+2016-02-15 00:06:07	--	SpotChat-qotrdh.dyn.beotel.net :is now your displayed host
+2016-02-15 00:06:07	--	User mode [+ix] by shibari
+2016-02-15 00:06:07	--	InfoServ (InfoServ@services.SpotChat.org): *** Message(s) of the Day ***
+2016-02-15 00:06:07	--	InfoServ (InfoServ@services.SpotChat.org): [SASL Authentication mechanisms] Notice from r00t, posted 01:24 on 03/05/2015:
+2016-02-15 00:06:07	--	InfoServ (InfoServ@services.SpotChat.org): DH-BLOWFISH and DH-AES is no longer supported. If you are using any of these, please switch to either PLAIN or ECDSA-NIST256p-CHALLENGE
+2016-02-15 00:06:07	--	InfoServ (InfoServ@services.SpotChat.org): *** End of Message(s) of the Day ***
+2016-02-15 00:06:07	--	NickServ (NickServ@services.SpotChat.org): Welcome to SpotChat, shibari! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+2016-02-15 01:58:45	--	irc: connecting to server irc.spotchat.org/6667...
+2016-02-15 01:58:46	--	irc: connected to irc.spotchat.org/6667 (67.230.170.10)
+2016-02-15 01:58:46	--	lamia.ca.SpotChat.org: *** Looking up your hostname...
+2016-02-15 01:58:46	--	lamia.ca.SpotChat.org: *** Found your hostname (92.79.148.91.adsl.dyn.beotel.net)
+2016-02-15 01:58:47	--	lamia.ca.SpotChat.org: Welcome to SpotChat!
+2016-02-15 01:58:47	--	Welcome to the SpotChat IRC Network shibari!shibari@92.79.148.91.adsl.dyn.beotel.net
+2016-02-15 01:58:47	--	Your host is lamia.ca.SpotChat.org, running version InspIRCd-2.0
+2016-02-15 01:58:47	--	This server was created 03:13:01 May 10 2015
+2016-02-15 01:58:47	--	lamia.ca.SpotChat.org InspIRCd-2.0 BHIRSWcdghikorswx ACIJKMNOPQRSTYabceghiklmnopqrstvz IJYabeghkloqv
+2016-02-15 01:58:47	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibeg,k,Jl,ACKMNOPQRSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ACNOQRSTUcmz FNC INVEX=I KICKLEN=255 :are supported by this server
+2016-02-15 01:58:47	--	MAP MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST :are supported by this server
+2016-02-15 01:58:47	--	SSL=67.230.170.10:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2016-02-15 01:58:47	--	198AAA1MM :your unique ID
+2016-02-15 01:58:47	--	lamia.ca.SpotChat.org message of the day
+2016-02-15 01:58:47	--	-               _____             __       __          __
+2016-02-15 01:58:47	--	-              / ___/____  ____  / /______/ /_  ____ _/ /_
+2016-02-15 01:58:47	--	-              \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/
+2016-02-15 01:58:47	--	-             ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_
+2016-02-15 01:58:47	--	-            /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/
+2016-02-15 01:58:47	--	-                /__/
+2016-02-15 01:58:47	--	-                     http://spotchat.org/imprint/
+2016-02-15 01:58:47	--	-                     http://spotchat.org/servers/
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	-                       RULES (FOR THOSE WITHOUT COMMON SENSE)
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	- : On connecting to this Network you are agreeing to be scanned for open
+2016-02-15 01:58:47	--	-      Proxies. Please disregard any messages from Monitoring or Security
+2016-02-15 01:58:47	--	-      software about this matter, it helps us keep our network a safe place.
+2016-02-15 01:58:47	--	- : Bots are allowed if they cause no harm to other Users on this Network or
+2016-02-15 01:58:47	--	-      annoy them in any way. Bots disturbing the normal flow of this Network
+2016-02-15 01:58:47	--	-      are not allowed.
+2016-02-15 01:58:47	--	- : Bots are to be marked with the usermode +B ( /MODE nick +B )
+2016-02-15 01:58:47	--	- : 3 connections per IP are allowed on this IRC Network. Exceptions can be
+2016-02-15 01:58:47	--	-      arranged in consultation with the Operators.
+2016-02-15 01:58:47	--	- : NOT allowed are: warez, XDCC, dissemination of pornographic content,
+2016-02-15 01:58:47	--	-      overexposure of violence, trolling and
+2016-02-15 01:58:47	--	-      flooding/spamming.
+2016-02-15 01:58:47	--	- : Listen to the IRC Operators and respect their decisions. Decisions made
+2016-02-15 01:58:47	--	-      by the IRC Operators are final.
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- The Operators of this Network reserve the right to block Channels or Users
+2016-02-15 01:58:47	--	- who breach these rules and to change the above rules without prior notice.
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- Anyone who operates computer sabotage against us make themselves liable
+2016-02-15 01:58:47	--	- to prosecution under Section 303b of the German Criminal Code and we will
+2016-02-15 01:58:47	--	- press charges against them.
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	-                                 EXTRA SERVICES
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	-   ChanServ --- Allows normal Users to maintain control over their Channel.
+2016-02-15 01:58:47	--	-   MemoServ --- Allows sending memos to offline Users.
+2016-02-15 01:58:47	--	-   BotServ --- Custom Channel bots as replacement to ChanServ (Ask for one
+2016-02-15 01:58:47	--	-                  in #SpotChat ).
+2016-02-15 01:58:47	--	-   NickServ --- Allows Users to register their Nicks to stop other people
+2016-02-15 01:58:47	--	-                   from taking them.
+2016-02-15 01:58:47	--	-   HostServ --- A Service designed to give you a cool host name!
+2016-02-15 01:58:47	--	-                   If you use a domain name, you must provide proof that you
+2016-02-15 01:58:47	--	-                   own that domain. This is to prevent impersonation.
+2016-02-15 01:58:47	--	-                   To get started please use the following command:
+2016-02-15 01:58:47	--	-                         /MSG HostServ HELP REQUEST
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- *** For more information, visit: http://spotchat.org/howto/
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	-                       SOME IMPORTANT COMMANDS (NO SHORTCUTS)
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	- vHosts:
+2016-02-15 01:58:47	--	-       /MSG HostServ HELP REQUEST
+2016-02-15 01:58:47	--	- Nicks:
+2016-02-15 01:58:47	--	-       /MSG NickServ HELP REGISTER
+2016-02-15 01:58:47	--	-       /MSG NickServ HELP SET
+2016-02-15 01:58:47	--	- Channels:
+2016-02-15 01:58:47	--	-       /MSG ChanServ HELP REGISTER
+2016-02-15 01:58:47	--	-       /MSG ChanServ HELP FLAGS
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	-            SPOTCHAT ADMINISTRATION: See http://spotchat.org/staff/
+2016-02-15 01:58:47	--	- =============================================================================
+2016-02-15 01:58:47	--	- In case a User is masquerading as an IRC-Op and no Operator can be found
+2016-02-15 01:58:47	--	-    please immediately contact Network management!
+2016-02-15 01:58:47	--	-
+2016-02-15 01:58:47	--	- Contact Us via (in order of fastest service to slowest):
+2016-02-15 01:58:47	--	- 1) The #SpotChat Channel
+2016-02-15 01:58:47	--	- 2) Email us at opers@spotchat.org
+2016-02-15 01:58:48	--	- 3) http://spotchat.org/contact/
+2016-02-15 01:58:48	--	- =============================================================================
+2016-02-15 01:58:48	--	End of message of the day.
+2016-02-15 01:58:48	--	There are 6 users and 508 invisible on 6 servers
+2016-02-15 01:58:48	--	4 :operator(s) online
+2016-02-15 01:58:48	--	87 :channels formed
+2016-02-15 01:58:48	--	I have 109 clients and 1 servers
+2016-02-15 01:58:48	--	Current Local Users: 109  Max: 138
+2016-02-15 01:58:48	--	Current Global Users: 514  Max: 606
+2016-02-15 01:58:48	--	SpotChat-qotrdh.dyn.beotel.net :is now your displayed host
+2016-02-15 01:58:48	--	User mode [+ix] by shibari
+2016-02-15 01:58:48	--	InfoServ (InfoServ@services.SpotChat.org): *** Message(s) of the Day ***
+2016-02-15 01:58:48	--	InfoServ (InfoServ@services.SpotChat.org): [SASL Authentication mechanisms] Notice from r00t, posted 01:24 on 03/05/2015:
+2016-02-15 01:58:48	--	InfoServ (InfoServ@services.SpotChat.org): DH-BLOWFISH and DH-AES is no longer supported. If you are using any of these, please switch to either PLAIN or ECDSA-NIST256p-CHALLENGE
+2016-02-15 01:58:48	--	InfoServ (InfoServ@services.SpotChat.org): *** End of Message(s) of the Day ***
+2016-02-15 01:58:48	--	NickServ (NickServ@services.SpotChat.org): Welcome to SpotChat, shibari! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
