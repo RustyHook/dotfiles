@@ -84,3 +84,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias hdmi="xrandr --output HDMI-0 --mode 1366x768"
+alias weechat="terminator -e weechat -T weechat"
+alias pingg="ping -c 4 www.google.com"
+alias aw="wiki-search"
+
+#export CC=clang
+#export CFLAGS="-ggdb3 -O0 -std=c99 -Wall -Werror -lcs50 -lm"
+alias make50="clang -ggdb3 -O0 -std=c99 -Wall -Werror -lcs50 -lm -o"
+

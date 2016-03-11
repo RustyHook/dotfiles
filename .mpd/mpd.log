@@ -61,3 +61,60 @@ Feb 06 18:17 : alsa_output: Failed to open "alsa" [alsa]: Failed to open ALSA de
 Feb 06 18:21 : player: played "06-RunToTheHills.ogg"
 Feb 06 18:25 : player: played "07-Gangland.mp3"
 Feb 06 18:29 : player: played "08-TotalEclipse.mp3"
+Mar 11 14:24 : client: [0] opened from 127.0.0.1:55424
+Mar 11 14:30 : player: played "03-ThePrisoner.mp3"
+Mar 11 14:33 : player: played "04-22AcaciaAvenue.mp3"
+Mar 11 14:33 : errno: Failed to open "/home/shibari/Music/01-Invaders.ogg": No such file or directory
+Mar 11 14:33 : errno: Failed to open "/home/shibari/Music/01-Invaders.ogg": No such file or directory
+Mar 11 14:33 : errno: Failed to open "/home/shibari/Music/01-Invaders.ogg": No such file or directory
+Mar 11 14:33 : errno: Failed to open "/home/shibari/Music/01-Invaders.ogg": No such file or directory
+Mar 11 14:33 : player: played "01-Invaders.ogg"
+Mar 11 14:38 : player: played "02-ChildrenOfTheDamned.mp3"
+Mar 11 14:41 : client: [0] closed
+Mar 11 14:41 : player: played "01-Invaders.mp3"
+Mar 11 14:42 : client: [0] opened from 127.0.0.1:35050
+Mar 11 14:43 : player: played "01-Invaders.mp3"
+Mar 11 14:43 : client: [1] opened from 127.0.0.1:35056
+Mar 11 14:45 : client: [1] closed
+Mar 11 14:45 : client: [2] opened from 127.0.0.1:35058
+Mar 11 14:47 : errno: Failed to open "/home/shibari/Music/06-RunToTheHills.ogg": No such file or directory
+Mar 11 14:47 : errno: Failed to open "/home/shibari/Music/06-RunToTheHills.ogg": No such file or directory
+Mar 11 14:47 : errno: Failed to open "/home/shibari/Music/06-RunToTheHills.ogg": No such file or directory
+Mar 11 14:47 : errno: Failed to open "/home/shibari/Music/06-RunToTheHills.ogg": No such file or directory
+Mar 11 14:48 : player: played "05-TheNumberOfTheBeast.mp3"
+Mar 11 14:48 : player: played "05-TheNumberOfTheBeast.mp3"
+Mar 11 14:55 : client: [2] closed
+Mar 11 14:56 : client: [3] opened from 127.0.0.1:35148
+Mar 11 14:56 : client: [3] closed
+Mar 11 14:59 : player: played "07-Gangland.mp3"
+Mar 11 15:02 : client: [4] opened from 127.0.0.1:35162
+Mar 11 15:04 : player: played "08-TotalEclipse.mp3"
+Mar 11 15:17 : client: [5] opened from 127.0.0.1:35198
+Mar 11 15:17 : client: [4] closed
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : player: played "04-22AcaciaAvenue.mp3"
+Mar 11 15:23 : player: played "04-22AcaciaAvenue.mp3"
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : errno: Failed to open "/home/shibari/Music/09-HallowedBeThyName.ogg": No such file or directory
+Mar 11 15:23 : player: played "09-HallowedBeThyName.ogg"
+Mar 11 15:24 : client: [0] closed
+Mar 11 15:24 : client: [6] opened from 127.0.0.1:35266
+Mar 11 15:30 : client: [7] opened from 127.0.0.1:35272
+Mar 11 15:30 : client: [7] closed
+Mar 11 15:31 : client: [5] closed
+Mar 11 15:32 : client: [8] opened from 127.0.0.1:35274
+Mar 11 15:33 : player: played "09-HallowedBeThyName.mp3"
+Mar 11 15:34 : client: [8] closed
+Mar 11 15:37 : client: [9] opened from 127.0.0.1:35280
+Mar 11 15:37 : client: [9] closed
+Mar 11 15:42 : client: [10] opened from 127.0.0.1:35402
+Mar 11 15:43 : client: [10] closed
+Mar 11 15:50 : client: [11] opened from 127.0.0.1:35492
+Mar 11 15:50 : player: played "09-HallowedBeThyName.mp3"
+Mar 11 15:52 : client: [11] closed
+Mar 11 15:54 : player: played "01-Invaders.mp3"

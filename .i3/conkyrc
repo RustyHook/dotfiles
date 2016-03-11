@@ -7,45 +7,63 @@ max_text_width 0
 update_interval 0.5
 total_run_times 0
 override_utf8_locale yes
+mpd_host localhost
+mpd_port 6601
 # b72f62 was music icon
 # 7996a9 was vol and hdd
 # b492b6 was cpu/mem/clock 
 TEXT
 
-[{ "full_text" : "Î" , "color" : "\#9fbc00" } ,
- { "full_text" : "${execi 1 mocp -Q '%artist - %song %tl'}" } ,  
- { "full_text" : "Ô" , "color" : "\#9fbc00" } ,
- { "full_text" : "${exec amixer -c 1 get Master | grep Mono: | cut -d ' ' -f6}" } ,  
- { "full_text" : "À" , "color" : "\#9FBC00" } ,
- { "full_text" : "${fs_free_perc /}%" } , 
- { "full_text" : "Ï" , "color" : "\#9FBC00" } ,
- { "full_text" : "${cpu}%" },
- { "full_text" : "Þ" , "color" : "\#9FBC00" } ,
- { "full_text" : "${mem}" },
- { "full_text" : "Ð" , "color" : 
+[ { "full_text" : 
+  ${if_mpd_playing}"${mpd_smart} ${mpd_elapsed}/${mpd_length} "
+    ${else}""${endif} } ,  
+ { "full_text" : "" , "color" : "\#3badc9" } ,
+ { "full_text" : "${exec amixer -c 1 get Master | grep Mono: | cut -d ' ' -f6}", "color" : "\#e84ed9" } ,  
+ { "full_text" : "  ${cpu}%" , "color" :
+  ${if_match ${cpu}>75}"\#ac0909" \
+	${else}\
+		${if_match ${cpu}>50}"\#b58900"\
+	${else}\
+		${if_match ${cpu}>35}"\#a7fc00"\
+	${else}"\#3dafbc"${endif}${endif}${endif} } ,
+ { "full_text" : "  ${mem}" , "color" :
+  ${if_match ${memperc}>75}"\#ac0909" \
+	${else}\
+		${if_match ${memperc}>35}"\#f5e21d"\
+	${else}\
+		${if_match ${memperc}>15}"\#a7fc00"\
+	${else}"\#3dafcb"${endif}${endif}${endif} } ,
+ { "full_text" : "" , "color" : 
   ${if_match ${downspeedf wlo1}>350}"\#ac0909" \
 	${else}\
 		${if_match ${downspeedf wlo1}>150}"\#efef00"\
 	${else}\
 		${if_match ${downspeedf wlo1}>50}"\#a7fc00"\
 	${else}"\#5f5f5f"${endif}${endif}${endif} } ,
- { "full_text" : "Ñ" , "color" : 
+ { "full_text" : "" , "color" : 
   ${if_match ${upspeedf wlo1}>50}"\#ac0909" \
 	${else}\
 		${if_match ${upspeedf wlo1}>25}"\#efef00"\
 	${else}\
 		${if_match ${upspeedf wlo1}>5}"\#a7fc00"\
 	${else}"\#5f5f5f"${endif}${endif}${endif} } ,
- { "full_text" : "Bat" , "color" : "\#9FBC00" } ,
- { "full_text" : "${battery_percent BAT0}%" , "color" : 
+  { "full_text" :\
+  ${if_match ${battery_percent BAT0}>80}""\
+	${else}\
+  ${if_match ${battery_percent BAT0}>50}""\
+	${else}\
+  ${if_match ${battery_percent BAT0}>20}""\
+	${else}\
+  ${if_match ${battery_percent BAT0}>5}""\
+	${else}""${endif}${endif}${endif}${endif} ,\
+"color" : \
   ${if_match ${battery_percent BAT0}>90}"\#a7fc00"\
 	${else}\
   ${if_match ${battery_percent BAT0}>50}"\#007d00"\
 	${else}\
   ${if_match ${battery_percent BAT0}>20}"\#efef00"\
 	${else}"\#b95670"${endif}${endif}${endif} } ,
- { "full_text" : "Õ" , "color" : "\#9FBC00" } , 
- { "full_text" : "${time %I:%M%P}" }]  ,
+ { "full_text" : "${time %a, %d/%m %I:%M%P} " , "color" : "\#3badc9" }]  ,
 
 
 
