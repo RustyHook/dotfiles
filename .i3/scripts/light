@@ -1,8 +1,0 @@
-#!/bin/sh
-
-brightness=$(cat /sys/class/backlight/radeon_bl0/max_brightness)
-
-if (($brightness > 0)); then
-  let brightness=$brightness-1648,5
-    echo "echo $brightness > /sys/class/backlight/radeon_bl0/brightness" | sudo zsh
-fi

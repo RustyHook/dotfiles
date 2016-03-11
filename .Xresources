@@ -1,0 +1,63 @@
+
+*scrollBar: false 
+ 
+! ------- XTerm ------- !
+xterm*termName: xterm-256color
+XTerm*locale: true
+Xterm*saveLines: 4096
+xterm*faceName: Inconsolata for Powerline:regular:size=10
+xterm*font: 7x13
+xterm*borderWidth: 0
+! --------------------- !
+
+*font: xft:Inconsolata for Powerline:regular:size=9
+
+! ------- URxvt ------- !
+urxvt.depth: 32
+urxvt*foreground:  #93a1a1
+! --------------------- !
+
+
+! ------- COLORS ------ !
+  #define base00 #150b30
+  #define base01 #7627a5
+  #define base02 #9fbc00
+  #define base03 #e3e223
+  #define base04 #357bcd
+  #define base05 #e84ed9
+  #define base06 #3dafcb
+  #define base07 #fdf6e3
+  #define base08 #dc322f
+  #define base09 #cb4b16
+  #define base0A #b58900
+  #define base0B #859900
+  #define base0C #2aa198
+  #define base0D #268bd2
+  #define base0E #6c71c4
+  #define base0F #d33682
+! ---------------------- !
+
+
+*.background:   [70]base00
+*.cursorColor:  base06
+
+*.color0:	base00       !#150b30
+*.color1:	base01       !#af5f00
+*.color2:	base02       !#859900
+*.color3:	base03       !#b58900
+*.color4:	base04       !#268bd2
+*.color5:	base05       !#6c71c4
+*.color6:	base06       !#2aa198
+*.color7:	base07       !#93a1a1
+
+*.color8:	base00       !#657b83
+*.color9:	base01       !#dc322f
+*.color10:	base02      !#073642
+*.color11:	base03      !#364975
+*.color12:	base04      !#839496
+*.color13:	base05      !#eee8d5
+*.color14:	base06      !#37acd3
+*.color15:	base07      !#fdf6e3
+
+! 
+! vim: ft=xdefaults
